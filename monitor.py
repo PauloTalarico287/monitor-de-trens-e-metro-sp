@@ -48,7 +48,7 @@ TERRITORIOS = {
     "Guarulhos":      ["JADE"],
     "Capao Redondo":  ["LILAS"],
     "Itaim Paulista": ["SAFIRA"],
-    "Graja":          ["ESMERALDA"],
+    "Grajau":          ["ESMERALDA"],
     "Sao Mateus":     ["PRATA"],
     "Jacana":         ["AZUL"],
     "Paraisopolis":   ["AMARELA"],

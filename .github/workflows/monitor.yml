@@ -2,12 +2,12 @@ name: Monitor Metro e Trem SP
 
 on:
   schedule:
-    # Roda a cada 30 minutos entre 4h30 e 23h30 (horário de Brasília = UTC-3)
-    # No GitHub Actions o horário é UTC, então somamos 3h
-    - cron: '*/30 7-23 * * *'   # 04h00–20h30 BRT (07h–23h UTC) dias úteis e fins de semana
-  workflow_dispatch:             # permite rodar manualmente pelo GitHub
+    - cron: '*/30 7-23 * * *'
+  workflow_dispatch:
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   monitorar:
     runs-on: ubuntu-latest
@@ -29,7 +29,16 @@ jobs:
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
         run: echo "$GOOGLE_CREDENTIALS" > credentials.json
-          
+
+      - name: Verificar credenciais
+        run: |
+          echo "Tamanho do arquivo:"
+          wc -c credentials.json
+          echo "Primeiros 50 chars:"
+          head -c 50 credentials.json
+          echo "É JSON válido?"
+          python3 -c "import json; json.load(open('credentials.json')); print('SIM')" || echo "NÃO"
+
       - name: Rodar monitor de status
         run: python monitor.py
 

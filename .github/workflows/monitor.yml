@@ -26,8 +26,13 @@ jobs:
         run: pip install requests beautifulsoup4 gspread google-auth
 
       - name: Criar arquivo de credenciais do Google
-        run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
-
+        run: |
+          cat << 'CREDSEOF' > credentials.json
+          ${{ secrets.GOOGLE_CREDENTIALS }}
+          CREDSEOF
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          
       - name: Rodar monitor de status
         run: python monitor.py
 

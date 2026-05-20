@@ -1,1 +1,44 @@
+name: Monitor Metro e Trem SP
 
+on:
+  schedule:
+    # Roda a cada 30 minutos entre 4h30 e 23h30 (horário de Brasília = UTC-3)
+    # No GitHub Actions o horário é UTC, então somamos 3h
+    - cron: '*/30 7-23 * * *'   # 04h00–20h30 BRT (07h–23h UTC) dias úteis e fins de semana
+  workflow_dispatch:             # permite rodar manualmente pelo GitHub
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4 gspread google-auth
+
+      - name: Criar arquivo de credenciais do Google
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
+
+      - name: Rodar monitor de status
+        run: python monitor.py
+
+      - name: Gravar no Google Sheets (se houver alertas)
+        env:
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        run: python sheets_writer.py
+
+      - name: Salvar status.json no repositório
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/status.json || true
+          git diff --cached --quiet || git commit -m "chore: atualiza status $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push || true

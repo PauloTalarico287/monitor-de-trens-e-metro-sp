@@ -56,7 +56,7 @@ NOMES_TERRITORIOS = [
     "Guarulhos",
     "Capao Redondo",
     "Itaim Paulista",
-    "Graja",
+    "Grajau",
     "Sao Mateus",
     "Jacana",
     "Paraisopolis",

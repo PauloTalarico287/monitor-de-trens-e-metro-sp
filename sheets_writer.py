@@ -197,7 +197,13 @@ print(f"Territórios com alerta: {len(alertas)}")
 print("\nConectando ao Google Sheets...")
 try:
     SPREADSHEET_ID = SPREADSHEET_ID.strip().replace("\u200b", "").replace("\ufeff", "")
-    cliente = conectar_sheets()
+    creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=[
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive",
+    ])
+    print(f"  Credencial carregada: {creds.service_account_email}")
+    cliente = gspread.authorize(creds)
+    print(f"  Cliente criado: {type(cliente)}")
     planilha = cliente.open_by_key(SPREADSHEET_ID)
     print(f"✅ Conectado: '{planilha.title}'")
 

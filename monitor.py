@@ -61,9 +61,9 @@ def territorios_afetados(linha_cor):
 PALAVRAS_PROBLEMA = [
     "reducida", "reduzida", "velocidade", "intervalo", "intervalos",
     "via unica", "parcial", "interrompida", "paralisada", "encerrada",
-    "suspensa", "falha", "defeito", "manutencao", "manutencao",
-    "programada", "obras", "problema", "ocorrencia", "ocorrencia",
-    "atencao", "atencao", "lentidao", "lentidao", "atraso", "impedimento",
+    "suspensa", "falha", "defeito", "manutencao", "programada", "obras",
+    "atividade programada", "permanente", "trens estao", "trens estao",
+    "problema", "ocorrencia", "atencao", "lentidao", "atraso", "impedimento",
 ]
 
 def sem_acento(texto):
@@ -87,8 +87,8 @@ def get_emoji(texto):
 
 def tem_problema(reg):
     t = sem_acento(reg.get("status", "") + " " + reg.get("raw", ""))
-    return any(p in t for p in PALAVRAS_PROBLEMA)
-
+    return any(sem_acento(p) in t for p in PALAVRAS_PROBLEMA)
+    
 def extrair_campo(obj, *chaves):
     for chave in chaves:
         if chave in obj and obj[chave] is not None:

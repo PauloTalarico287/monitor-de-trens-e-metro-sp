@@ -105,7 +105,7 @@ def gravar_historico(planilha, todas_linhas):
     hora_str = agora.strftime("%H:%M")
     gravados = 0
 
-    linhas_com_problema = [l for l in todas_linhas if l.get("emoji") in ["🟡", "🔴"]]
+    linhas_com_problema = todas_linhas  # TESTE: grava tudo temporariamente
 
     if not linhas_com_problema:
         return 0

@@ -10,7 +10,7 @@ import requests
 import urllib3
 import unicodedata
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import json, time, re
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -222,7 +222,7 @@ def linhas_fixas_ausentes(cores_presentes):
 # ============================================================
 
 print("=" * 55)
-print(f"Monitor Metro e Trem SP  (v6) - {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
+print(f"Monitor Metro e Trem SP  (v6) - {datetime.now(timezone(timedelta(hours=-3)))}")
 print("=" * 55)
 print()
 
@@ -293,7 +293,7 @@ if erros:
 print("=" * 55)
 
 resultado = {
-    "coletado_em": datetime.now().isoformat(),
+    datetime.now(timezone(timedelta(hours=-3)))
     "resumo": {
         "total_com_problema":      len(problemas),
         "total_normal":            len(normais),

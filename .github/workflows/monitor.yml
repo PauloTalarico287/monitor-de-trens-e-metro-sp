@@ -6,7 +6,8 @@ on:
     # No GitHub Actions o horário é UTC, então somamos 3h
     - cron: '*/30 7-23 * * *'   # 04h00–20h30 BRT (07h–23h UTC) dias úteis e fins de semana
   workflow_dispatch:             # permite rodar manualmente pelo GitHub
-
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 jobs:
   monitorar:
     runs-on: ubuntu-latest
@@ -14,10 +15,10 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Configurar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0
         with:
           python-version: '3.11'
 

@@ -100,7 +100,8 @@ def garantir_abas(planilha):
 def gravar_historico(planilha, todas_linhas):
     """Grava apenas as linhas com problema no histórico geral."""
     ws = planilha.worksheet(ABA_HISTORICO)
-    agora = datetime.now()
+    from datetime import timezone, timedelta
+    agora = datetime.now(timezone(timedelta(hours=-3)))
     data_str = agora.strftime("%d/%m/%Y")
     hora_str = agora.strftime("%H:%M")
     gravados = 0

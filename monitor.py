@@ -293,7 +293,7 @@ if erros:
 print("=" * 55)
 
 resultado = {
-    datetime.now(timezone(timedelta(hours=-3)))
+    "coletado_em": datetime.now(timezone(timedelta(hours=-3))).isoformat(),
     "resumo": {
         "total_com_problema":      len(problemas),
         "total_normal":            len(normais),

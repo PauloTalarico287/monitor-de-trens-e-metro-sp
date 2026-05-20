@@ -59,11 +59,17 @@ def territorios_afetados(linha_cor):
     return [t for t, linhas in TERRITORIOS.items() if linha_cor in linhas]
 
 PALAVRAS_PROBLEMA = [
+    # velocidade / fluxo
     "reducida", "reduzida", "velocidade", "intervalo", "intervalos",
-    "via unica", "parcial", "interrompida", "paralisada", "encerrada",
-    "suspensa", "falha", "defeito", "manutencao", "manutencao",
-    "programada", "obras", "problema", "ocorrencia", "ocorrencia",
-    "atencao", "atencao", "lentidao", "lentidao", "atraso", "impedimento",
+    "via unica", "parcial",
+    # status explícito
+    "interrompida", "paralisada", "encerrada", "suspensa", "falha", "defeito",
+    # manutenção / obras — inclui variações de texto descritivo
+    "manutencao", "programada", "obras", "atividade programada",
+    "permanente",  # "via permanente" aparece nos textos da CPTM
+    # ocorrências
+    "problema", "ocorrencia", "atencao", "lentidao", "atraso", "impedimento",
+    "trens estao", "trens estão",  # "os trens estão..." indica anormalidade
 ]
 
 def sem_acento(texto):

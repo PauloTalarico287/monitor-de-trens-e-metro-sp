@@ -134,11 +134,12 @@ def gravar_alertas_territorios(planilha, alertas_territorios):
     if not alertas_territorios:
         return 0
 
-    agora = datetime.now()
+    from datetime import timezone, timedelta
+    fuso_brasilia = timezone(timedelta(hours=-3))
+    agora = datetime.now(fuso_brasilia)
     data_str = agora.strftime("%d/%m/%Y")
     hora_str = agora.strftime("%H:%M")
-    gravados = 0
-
+    
     for alerta in alertas_territorios:
         territorio = alerta.get("territorio", "")
         if territorio not in NOMES_TERRITORIOS:
@@ -188,6 +189,15 @@ todas_linhas = (
     resultado.get("normais", []) +
     resultado.get("ausentes_api", [])
 )
+# Deduplicar por linha_cor para evitar repetições
+vistas = set()
+todas_linhas_unicas = []
+for l in todas_linhas:
+    chave = l.get("linha_cor", l.get("linha_nome", ""))
+    if chave not in vistas:
+        vistas.add(chave)
+        todas_linhas_unicas.append(l)
+todas_linhas = todas_linhas_unicas
 alertas = resultado.get("alertas_territorios", [])
 
 print(f"\nLinhas coletadas:      {len(todas_linhas)}")

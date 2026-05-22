@@ -1,40 +1,13 @@
 {
-  "coletado_em": "2026-05-22T15:19:02.428972-03:00",
+  "coletado_em": "2026-05-22T17:20:55.702294-03:00",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 13,
+    "total_com_problema": 0,
+    "total_normal": 14,
     "total_ausente_api": 3,
-    "territorios_com_alerta": 2
+    "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Devido a atividade programada de via permanente, os trens estão circulando com maiores intervalos entre as estações Jurubatuba e Varginha. A circulação entre Jurubatuba e Osasco permanece sem alterações.",
-      "emoji": "⚪",
-      "fonte": "API central"
-    }
-  ],
-  "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido a atividade programada de via permanente, os trens estão circulando com maiores intervalos entre as estações Jurubatuba e Varginha. A circulação entre Jurubatuba e Osasco permanece sem alterações.",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Grajau",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido a atividade programada de via permanente, os trens estão circulando com maiores intervalos entre as estações Jurubatuba e Varginha. A circulação entre Jurubatuba e Osasco permanece sem alterações.",
-      "emoji": "⚪"
-    }
-  ],
+  "problemas": [],
+  "alertas_territorios": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -94,6 +67,15 @@
       "linha_cor": "DIAMANTE",
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "emoji": "🟢",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "emoji": "🟢",

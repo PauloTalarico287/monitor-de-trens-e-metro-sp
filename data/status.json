@@ -1,19 +1,21 @@
 {
-  "coletado_em": "2026-05-23T02:06:18.273505-03:00",
+  "coletado_em": "2026-05-23T06:58:20.136341-03:00",
   "resumo": {
-    "total_com_problema": 10,
-    "total_normal": 4,
+    "total_com_problema": 0,
+    "total_normal": 14,
     "total_ausente_api": 3,
-    "territorios_com_alerta": 9
+    "territorios_com_alerta": 0
   },
-  "problemas": [
+  "problemas": [],
+  "alertas_territorios": [],
+  "normais": [
     {
       "linha_cor": "AZUL",
       "linha_numero": 1,
       "linha_nome": "Linha 1-Azul",
       "operadora": "Metro SP",
-      "status": "Operação Encerrada",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -21,8 +23,8 @@
       "linha_numero": 2,
       "linha_nome": "Linha 2-Verde",
       "operadora": "Metro SP",
-      "status": "Operação Encerrada",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -30,8 +32,8 @@
       "linha_numero": 3,
       "linha_nome": "Linha 3-Vermelha",
       "operadora": "Metro SP",
-      "status": "Operação Encerrada",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -39,8 +41,8 @@
       "linha_numero": 4,
       "linha_nome": "Linha 4-Amarela",
       "operadora": "Motiva",
-      "status": "Operação Encerrada",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -48,8 +50,17 @@
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
       "operadora": "ViaMobilidade",
-      "status": "Operação Encerrada",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "RUBI",
+      "linha_numero": 7,
+      "linha_nome": "Linha 7-Rubi",
+      "operadora": "TIC Trens",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -57,8 +68,8 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Operação Encerrada",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -66,8 +77,8 @@
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Operação Encerrada",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -75,8 +86,8 @@
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
       "operadora": "CPTM",
-      "status": "Operações Encerradas",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -84,8 +95,8 @@
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
       "operadora": "CPTM",
-      "status": "Operações Encerradas",
-      "emoji": "⚪",
+      "status": "Operação Normal",
+      "emoji": "🟢",
       "fonte": "API central"
     },
     {
@@ -93,91 +104,6 @@
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Operações Encerradas",
-      "emoji": "⚪",
-      "fonte": "API central"
-    }
-  ],
-  "alertas_territorios": [
-    {
-      "territorio": "Jacana",
-      "linha_nome": "Linha 1-Azul",
-      "linha_cor": "AZUL",
-      "operadora": "Metro SP",
-      "status": "Operação Encerrada",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Paraisopolis",
-      "linha_nome": "Linha 4-Amarela",
-      "linha_cor": "AMARELA",
-      "operadora": "Motiva",
-      "status": "Operação Encerrada",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Capao Redondo",
-      "linha_nome": "Linha 5-Lilas",
-      "linha_cor": "LILAS",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Encerrada",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Encerrada",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Encerrada",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Grajau",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Encerrada",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Maua",
-      "linha_nome": "Linha 10-Turquesa",
-      "linha_cor": "TURQUESA",
-      "operadora": "CPTM",
-      "status": "Operações Encerradas",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Suzano",
-      "linha_nome": "Linha 11-Coral",
-      "linha_cor": "CORAL",
-      "operadora": "CPTM",
-      "status": "Operações Encerradas",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Itaim Paulista",
-      "linha_nome": "Linha 12-Safira",
-      "linha_cor": "SAFIRA",
-      "operadora": "CPTM",
-      "status": "Operações Encerradas",
-      "emoji": "⚪"
-    }
-  ],
-  "normais": [
-    {
-      "linha_cor": "RUBI",
-      "linha_numero": 7,
-      "linha_nome": "Linha 7-Rubi",
-      "operadora": "TIC Trens",
       "status": "Operação Normal",
       "emoji": "🟢",
       "fonte": "API central"

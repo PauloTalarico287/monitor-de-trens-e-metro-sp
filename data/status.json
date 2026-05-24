@@ -1,13 +1,66 @@
 {
-  "coletado_em": "2026-05-23T20:35:04.526401-03:00",
+  "coletado_em": "2026-05-24T01:04:00.144141-03:00",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 14,
+    "total_com_problema": 3,
+    "total_normal": 11,
     "total_ausente_api": 3,
-    "territorios_com_alerta": 0
+    "territorios_com_alerta": 3
   },
-  "problemas": [],
-  "alertas_territorios": [],
+  "problemas": [
+    {
+      "linha_cor": "TURQUESA",
+      "linha_numero": 10,
+      "linha_nome": "Linha 10-Turquesa",
+      "operadora": "CPTM",
+      "status": "Operações Encerradas",
+      "emoji": "⚪",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Operações Encerradas",
+      "emoji": "⚪",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "SAFIRA",
+      "linha_numero": 12,
+      "linha_nome": "Linha 12-Safira",
+      "operadora": "CPTM",
+      "status": "Operações Encerradas",
+      "emoji": "⚪",
+      "fonte": "API central"
+    }
+  ],
+  "alertas_territorios": [
+    {
+      "territorio": "Maua",
+      "linha_nome": "Linha 10-Turquesa",
+      "linha_cor": "TURQUESA",
+      "operadora": "CPTM",
+      "status": "Operações Encerradas",
+      "emoji": "⚪"
+    },
+    {
+      "territorio": "Suzano",
+      "linha_nome": "Linha 11-Coral",
+      "linha_cor": "CORAL",
+      "operadora": "CPTM",
+      "status": "Operações Encerradas",
+      "emoji": "⚪"
+    },
+    {
+      "territorio": "Itaim Paulista",
+      "linha_nome": "Linha 12-Safira",
+      "linha_cor": "SAFIRA",
+      "operadora": "CPTM",
+      "status": "Operações Encerradas",
+      "emoji": "⚪"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -41,8 +94,8 @@
       "linha_numero": 4,
       "linha_nome": "Linha 4-Amarela",
       "operadora": "Motiva",
-      "status": "Operação Normal",
-      "emoji": "🟢",
+      "status": "Estação Vila Sônia - Prof. Elisabeth Tenreiro aberta para embarque e desembarque, enquanto houver shows na região. Demais estações da linha 4 amarela funcionarão para transferências e desembarques.",
+      "emoji": "⚪",
       "fonte": "API central"
     },
     {
@@ -50,8 +103,8 @@
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
       "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "emoji": "🟢",
+      "status": "A partir da meia-noite (0h), as estações da Linha 5-Lilás estarão abertas apenas para desembarque e transferência.",
+      "emoji": "⚪",
       "fonte": "API central"
     },
     {
@@ -59,8 +112,8 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
-      "status": "Operação Normal",
-      "emoji": "🟢",
+      "status": "Durante a Virada Cultural 2026, a estação Palmeiras-Barra Funda funcionará 24h para embarque e desembarque. As demais estações permanecerão abertas apenas para desembarque durante a madrugada.",
+      "emoji": "⚪",
       "fonte": "API central"
     },
     {
@@ -68,8 +121,8 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "emoji": "🟢",
+      "status": "Operação especial neste fim de semana nas linhas 4-Amarela, 5-Lilás, 8-Diamante e 9-Esmeralda para a Virada Cultural.\nDurante a programação da Virada Cultural, a estação Vila Sônia-Prof.ª Elisabeth Tenreiro, da Linha 4-Amarela, permanecerá aberta enquanto acontecerem os shows na região.\n \nAs demais estações das linhas 4-Amarela, 5-Lilás, 8-Diamante e 9-Esmeralda funcionarão 24 horas apenas para desembarques e transferências.",
+      "emoji": "⚪",
       "fonte": "API central"
     },
     {
@@ -77,35 +130,8 @@
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "emoji": "🟢",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "TURQUESA",
-      "linha_numero": 10,
-      "linha_nome": "Linha 10-Turquesa",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "emoji": "🟢",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "emoji": "🟢",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "SAFIRA",
-      "linha_numero": 12,
-      "linha_nome": "Linha 12-Safira",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "emoji": "🟢",
+      "status": "Operação especial neste fim de semana nas linhas 4-Amarela, 5-Lilás, 8-Diamante e 9-Esmeralda para a Virada Cultural.\nDurante a programação da Virada Cultural, a estação Vila Sônia-Prof.ª Elisabeth Tenreiro, da Linha 4-Amarela, permanecerá aberta enquanto acontecerem os shows na região.\n \nAs demais estações das linhas 4-Amarela, 5-Lilás, 8-Diamante e 9-Esmeralda funcionarão 24 horas apenas para desembarques e transferências.",
+      "emoji": "⚪",
       "fonte": "API central"
     },
     {

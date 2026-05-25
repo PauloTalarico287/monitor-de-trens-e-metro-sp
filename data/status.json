@@ -1,21 +1,12 @@
 {
-  "coletado_em": "2026-05-25T14:19:27.224717-03:00",
+  "coletado_em": "2026-05-25T15:22:46.725985-03:00",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 12,
+    "total_com_problema": 1,
+    "total_normal": 13,
     "total_ausente_api": 3,
-    "territorios_com_alerta": 3
+    "territorios_com_alerta": 2
   },
   "problemas": [
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada de via permanente entre as estações Barueri e Jandira, e manutenção programada de via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos entre as  estações Barueri e Itapevi, e entre as estações Júlio Prestes e Palmeiras Barra Funda.",
-      "emoji": "⚪",
-      "fonte": "API central"
-    },
     {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
@@ -27,14 +18,6 @@
     }
   ],
   "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada de via permanente entre as estações Barueri e Jandira, e manutenção programada de via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos entre as  estações Barueri e Itapevi, e entre as estações Júlio Prestes e Palmeiras Barra Funda.",
-      "emoji": "⚪"
-    },
     {
       "territorio": "Osasco",
       "linha_nome": "Linha 9-Esmeralda",
@@ -103,6 +86,15 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
+      "status": "Operação Normal",
+      "emoji": "🟢",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "emoji": "🟢",
       "fonte": "API central"

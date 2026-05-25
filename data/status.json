@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-05-25T12:23:47.112853-03:00",
+  "coletado_em": "2026-05-25T14:19:27.224717-03:00",
   "resumo": {
     "total_com_problema": 2,
     "total_normal": 12,
@@ -12,7 +12,7 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada na via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos nesse trecho.",
+      "status": "Devido à manutenção programada de via permanente entre as estações Barueri e Jandira, e manutenção programada de via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos entre as  estações Barueri e Itapevi, e entre as estações Júlio Prestes e Palmeiras Barra Funda.",
       "emoji": "⚪",
       "fonte": "API central"
     },
@@ -32,7 +32,7 @@
       "linha_nome": "Linha 8-Diamante",
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada na via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos nesse trecho.",
+      "status": "Devido à manutenção programada de via permanente entre as estações Barueri e Jandira, e manutenção programada de via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos entre as  estações Barueri e Itapevi, e entre as estações Júlio Prestes e Palmeiras Barra Funda.",
       "emoji": "⚪"
     },
     {

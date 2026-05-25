@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-05-24T20:01:19.796688-03:00",
+  "coletado_em": "2026-05-24T22:32:39.753219-03:00",
   "resumo": {
     "total_com_problema": 2,
     "total_normal": 12,
@@ -12,7 +12,7 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
-      "status": "Para execução de obras de modernização da Linha 7-Rubi, os trens circulam em via única entre Perus e Caieiras, com embarque e desembarque na mesma plataforma nos dois sentidos.",
+      "status": "Devido a presença de pessoa na via, na região da estação Vila Aurora, os trens estão circulando por via única, entre Vila Clarice e Caieiras.",
       "emoji": "⚪",
       "fonte": "API central"
     },

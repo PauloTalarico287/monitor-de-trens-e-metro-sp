@@ -1,40 +1,13 @@
 {
-  "coletado_em": "2026-05-25T15:22:46.725985-03:00",
+  "coletado_em": "2026-05-25T17:25:23.238598-03:00",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 13,
+    "total_com_problema": 0,
+    "total_normal": 14,
     "total_ausente_api": 3,
-    "territorios_com_alerta": 2
+    "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada de rede aérea na região de Osasco, os trens da Linha 9 - Esmeralda estão retornando da estação Presidente Altino. Clientes com destino a Osasco devem utilizar os trens da Linha 8 - Diamante a partir da estação Presidente Altino.",
-      "emoji": "⚪",
-      "fonte": "API central"
-    }
-  ],
-  "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada de rede aérea na região de Osasco, os trens da Linha 9 - Esmeralda estão retornando da estação Presidente Altino. Clientes com destino a Osasco devem utilizar os trens da Linha 8 - Diamante a partir da estação Presidente Altino.",
-      "emoji": "⚪"
-    },
-    {
-      "territorio": "Grajau",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada de rede aérea na região de Osasco, os trens da Linha 9 - Esmeralda estão retornando da estação Presidente Altino. Clientes com destino a Osasco devem utilizar os trens da Linha 8 - Diamante a partir da estação Presidente Altino.",
-      "emoji": "⚪"
-    }
-  ],
+  "problemas": [],
+  "alertas_territorios": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -94,6 +67,15 @@
       "linha_cor": "DIAMANTE",
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "emoji": "🟢",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "emoji": "🟢",

@@ -1,13 +1,57 @@
 {
-  "coletado_em": "2026-05-25T08:56:14.788935-03:00",
+  "coletado_em": "2026-05-25T12:23:47.112853-03:00",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 14,
+    "total_com_problema": 2,
+    "total_normal": 12,
     "total_ausente_api": 3,
-    "territorios_com_alerta": 0
+    "territorios_com_alerta": 3
   },
-  "problemas": [],
-  "alertas_territorios": [],
+  "problemas": [
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada na via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos nesse trecho.",
+      "emoji": "⚪",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada de rede aérea na região de Osasco, os trens da Linha 9 - Esmeralda estão retornando da estação Presidente Altino. Clientes com destino a Osasco devem utilizar os trens da Linha 8 - Diamante a partir da estação Presidente Altino.",
+      "emoji": "⚪",
+      "fonte": "API central"
+    }
+  ],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada na via permanente entre as estações Júlio Prestes e Palmeiras Barra Funda, os trens da Linha 8 - Diamante estão com maiores intervalos nesse trecho.",
+      "emoji": "⚪"
+    },
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada de rede aérea na região de Osasco, os trens da Linha 9 - Esmeralda estão retornando da estação Presidente Altino. Clientes com destino a Osasco devem utilizar os trens da Linha 8 - Diamante a partir da estação Presidente Altino.",
+      "emoji": "⚪"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada de rede aérea na região de Osasco, os trens da Linha 9 - Esmeralda estão retornando da estação Presidente Altino. Clientes com destino a Osasco devem utilizar os trens da Linha 8 - Diamante a partir da estação Presidente Altino.",
+      "emoji": "⚪"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -59,24 +103,6 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
-      "status": "Operação Normal",
-      "emoji": "🟢",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "emoji": "🟢",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "emoji": "🟢",
       "fonte": "API central"

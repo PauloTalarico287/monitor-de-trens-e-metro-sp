@@ -1,8 +1,7 @@
 name: Monitor Metro e Trem SP
 
 on:
-  schedule:
-    - cron: '*/30 0-3,7-23 * * *'
+  
   workflow_dispatch:
 
 env:

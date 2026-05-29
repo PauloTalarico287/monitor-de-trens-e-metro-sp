@@ -1,1 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status do Transporte — SP</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f8f8f6;
+      color: #1a1a1a;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem;
+    }
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 1.25rem;
+    }
+
+    .header h1 {
+      font-size: 17px;
+      font-weight: 500;
+      color: #1a1a1a;
+    }
+
+    .header .atualizacao {
+      font-size: 12px;
+      color: #888;
+      margin-top: 3px;
+    }
+
+    .controles {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn {
+      font-size: 12px;
+      padding: 5px 12px;
+      border: 0.5px solid #ccc;
+      border-radius: 8px;
+      background: #fff;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .btn.ativo {
+      background: #1a1a1a;
+      color: #fff;
+      border-color: #1a1a1a;
+    }
+
+    select {
+      font-size: 12px;
+      padding: 5px 10px;
+      border: 0.5px solid #ccc;
+      border-radius: 8px;
+      background: #fff;
+      color: #333;
+      cursor: pointer;
+    }
+
+    .banner {
+      display: none;
+      background: #fef9ec;
+      border: 0.5px solid #f5c542;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 1rem;
+      font-size: 13px;
+      color: #7a5800;
+    }
+
+    .banner.vermelho {
+      background: #fef0f0;
+      border-color: #f5a0a0;
+      color: #7a0000;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+      gap: 10px;
+    }
+
+    .card {
+      background: #fff;
+      border: 0.5px solid #e0e0e0;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 9px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-header .nome {
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .card-header .operadora {
+      font-size: 10px;
+      opacity: 0.8;
+    }
+
+    .card-body {
+      padding: 9px 12px;
+    }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 5px;
+    }
+
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .status-label {
+      font-size: 11px;
+      font-weight: 500;
+    }
+
+    .status-desc {
+      font-size: 11px;
+      color: #666;
+      line-height: 1.35;
+    }
+
+    .rodape {
+      margin-top: 1.5rem;
+      font-size: 11px;
+      color: #aaa;
+      text-align: right;
+    }
+
+    .erro-msg {
+      font-size: 13px;
+      color: #c0392b;
+      padding: 1rem 0;
+    }
+
+    @media (max-width: 480px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div>
+      <h1>Status do transporte — SP</h1>
+      <p class="atualizacao" id="atualizacao">carregando...</p>
+    </div>
+    <div class="controles">
+      <button class="btn ativo" id="btn-geral" onclick="mostrarGeral()">Todas as linhas</button>
+      <select id="sel-territorio" onchange="filtrarTerritorio(this.value)">
+        <option value="">Filtrar por território</option>
+        <option value="Suzano">Suzano</option>
+        <option value="Maua">Mauá</option>
+        <option value="Osasco">Osasco</option>
+        <option value="Guarulhos">Guarulhos</option>
+        <option value="Capao Redondo">Capão Redondo</option>
+        <option value="Itaim Paulista">Itaim Paulista</option>
+        <option value="Grajau">Grajaú</option>
+        <option value="Sao Mateus">São Mateus</option>
+        <option value="Jacana">Jaçanã</option>
+        <option value="Paraisopolis">Paraisópolis</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="banner" id="banner"></div>
+  <div class="grid" id="grid"></div>
+  <p class="rodape">Fonte: API CPTM · atualizado automaticamente a cada 30 min</p>
+
+</div>
+
+<script>
+const CORES = {
+  AZUL:"#0057A8", VERDE:"#007E40", VERMELHA:"#EE2E24",
+  AMARELA:"#FFC200", LILAS:"#9B2EA3", RUBI:"#CE0E2D",
+  DIAMANTE:"#97999B", ESMERALDA:"#00A859", TURQUESA:"#007F8C",
+  CORAL:"#F26522", SAFIRA:"#003F8A", JADE:"#00A651",
+  PRATA:"#9E9E9E", OURO:"#F5A800",
+};
+
+const TERRITORIOS = {
+  Suzano:["CORAL"], Maua:["TURQUESA"],
+  Osasco:["DIAMANTE","ESMERALDA"], Guarulhos:["JADE"],
+  "Capao Redondo":["LILAS"], "Itaim Paulista":["SAFIRA"],
+  Graja:["ESMERALDA"], "Sao Mateus":["PRATA"],
+  Jacana:["AZUL"], Paraisopolis:["AMARELA"],
+};
+
+const JSON_URL = "https://raw.githubusercontent.com/PauloTalarico287/monitor-de-trens-e-metro-sp/main/data/status.json";
+
+let todas = [];
+
+function corTexto(hex) {
+  const r=parseInt(hex.slice(1,3),16), g=parseInt(hex.slice(3,5),16), b=parseInt(hex.slice(5,7),16);
+  return (r*299+g*587+b*114)/1000>128?"#1a1a1a":"#fff";
+}
+
+function infoStatus(emoji) {
+  if (emoji==="🔴") return {label:"Interrompida", dot:"#e74c3c", cor:"#c0392b"};
+  if (emoji==="🟡") return {label:"Com problema", dot:"#f39c12", cor:"#7a5800"};
+  if (emoji==="🟢") return {label:"Operação normal", dot:"#27ae60", cor:"#1a6e35"};
+  return {label:"Sem dados", dot:"#aaa", cor:"#666"};
+}
+
+function renderCard(l) {
+  const cor = CORES[l.linha_cor] || "#888";
+  const tc = corTexto(cor);
+  const si = infoStatus(l.emoji);
+  const desc = (l.status||"").length>65 ? l.status.slice(0,65)+"…" : (l.status||"");
+  return `
+  <div class="card">
+    <div class="card-header" style="background:${cor}">
+      <span class="nome" style="color:${tc}">${l.linha_nome||l.linha_cor}</span>
+      <span class="operadora" style="color:${tc}">${l.operadora||""}</span>
+    </div>
+    <div class="card-body">
+      <div class="status-row">
+        <span class="dot" style="background:${si.dot}"></span>
+        <span class="status-label" style="color:${si.cor}">${si.label}</span>
+      </div>
+      <p class="status-desc">${desc}</p>
+    </div>
+  </div>`;
+}
+
+function renderGrid(linhas) {
+  const grid = document.getElementById("grid");
+  const banner = document.getElementById("banner");
+  const problemas = linhas.filter(l=>l.emoji==="🟡"||l.emoji==="🔴");
+
+  if (problemas.length) {
+    const temVermelho = problemas.some(l=>l.emoji==="🔴");
+    banner.className = "banner" + (temVermelho?" vermelho":"");
+    banner.style.display = "block";
+    banner.innerHTML = `<i class="ti ti-alert-triangle"></i> <strong>Atenção:</strong> ${problemas.map(p=>p.linha_nome).join(", ")} com operação afetada agora.`;
+  } else {
+    banner.style.display = "none";
+  }
+
+  if (!linhas.length) {
+    grid.innerHTML = `<p class="erro-msg">Nenhuma linha encontrada.</p>`;
+    return;
+  }
+
+  grid.innerHTML = linhas
+    .sort((a,b)=>(a.linha_numero||99)-(b.linha_numero||99))
+    .map(renderCard).join("");
+}
+
+function mostrarGeral() {
+  document.getElementById("btn-geral").classList.add("ativo");
+  document.getElementById("sel-territorio").value = "";
+  renderGrid(todas);
+}
+
+function filtrarTerritorio(t) {
+  document.getElementById("btn-geral").classList.remove("ativo");
+  if (!t) { mostrarGeral(); return; }
+  const cors = TERRITORIOS[t] || [];
+  renderGrid(todas.filter(l=>cors.includes(l.linha_cor)));
+}
+
+async function carregar() {
+  try {
+    const r = await fetch(JSON_URL+"?t="+Date.now());
+    const data = await r.json();
+
+    if (data.coletado_em) {
+      const d = new Date(data.coletado_em);
+      document.getElementById("atualizacao").textContent =
+        "Atualizado em " + d.toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
+    }
+
+    const raw = [
+      ...(data.problemas||[]),
+      ...(data.normais||[]),
+      ...(data.ausentes_api||[]),
+    ];
+
+    const vistas = new Set();
+    todas = raw.filter(l=>{
+      const k = l.linha_cor||l.linha_nome;
+      if (vistas.has(k)) return false;
+      vistas.add(k); return true;
+    });
+
+    renderGrid(todas);
+  } catch(e) {
+    document.getElementById("atualizacao").textContent = "Erro ao carregar dados";
+    document.getElementById("grid").innerHTML = `<p class="erro-msg">Não foi possível carregar o status. Tente novamente em instantes.</p>`;
+  }
+}
+
+carregar();
+</script>
+</body>
+</html>

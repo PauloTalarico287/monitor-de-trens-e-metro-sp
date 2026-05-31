@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-05-30T20:30:12.781891-03:00",
+  "coletado_em": "2026-05-30T21:00:16.189305-03:00",
   "fonte": "API ARTESP (ccm.artesp.sp.gov.br)",
   "resumo": {
     "total_com_problema": 0,
@@ -79,7 +79,7 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
+      "status": "Devido à manutenção programada, os trens da Linha 8-Diamante estão circulando com maiores intervalos.",
       "operacao_normal": true,
       "classificacao": "operacional",
       "emoji": "🟢",
@@ -90,7 +90,7 @@
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada no sistema de energia, das 20h deste sábado (30) até o fim da operação comercial de domingo (31), o trecho entre as estações João Dias e Primavera-Interlagos está sendo atendido por ônibus do sistema PAESE ( a estação Santo Amaro segue aberta para acesso à Linha 5-Lilás de metrô). A circulação de trens ocorre normalmente entre as estações Primavera-Interlagos e Varginha, e entre as estações João Dias e Osasco.",
+      "status": "Devido à manutenção programada nos sistemas de energia e de via permanente, das 20h deste sábado (30) até o fim da operação comercial de domingo (31), o trecho entre as estações João Dias e Primavera-Interlagos está sendo atendido por ônibus do sistema PAESE ( a estação Santo Amaro segue aberta para acesso à Linha 5-Lilás de metrô). A circulação de trens ocorre normalmente entre as estações Primavera-Interlagos e Varginha, e entre as estações João Dias e Osasco.",
       "operacao_normal": true,
       "classificacao": "operacional",
       "emoji": "🟢",

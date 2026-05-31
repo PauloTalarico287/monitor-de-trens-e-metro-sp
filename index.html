@@ -4,10 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Status do Transporte — SP</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #f8f8f6;
@@ -15,13 +13,7 @@
       font-size: 14px;
       line-height: 1.5;
     }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 1.5rem 1rem;
-    }
-
+    .container { max-width: 960px; margin: 0 auto; padding: 1.5rem 1rem; }
     .header {
       display: flex;
       align-items: flex-start;
@@ -30,149 +22,103 @@
       gap: 12px;
       margin-bottom: 1.25rem;
     }
-
-    .header h1 {
-      font-size: 17px;
-      font-weight: 500;
-      color: #1a1a1a;
-    }
-
-    .header .atualizacao {
-      font-size: 12px;
-      color: #888;
-      margin-top: 3px;
-    }
-
-    .controles {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
+    .header h1 { font-size: 17px; font-weight: 500; }
+    .atualizacao { font-size: 12px; color: #888; margin-top: 3px; }
+    .controles { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     .btn {
-      font-size: 12px;
-      padding: 5px 12px;
-      border: 0.5px solid #ccc;
-      border-radius: 8px;
-      background: #fff;
-      cursor: pointer;
-      color: #333;
+      font-size: 12px; padding: 5px 12px;
+      border: 0.5px solid #ccc; border-radius: 8px;
+      background: #fff; cursor: pointer; color: #333;
     }
-
-    .btn.ativo {
-      background: #1a1a1a;
-      color: #fff;
-      border-color: #1a1a1a;
-    }
-
+    .btn.ativo { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
     select {
-      font-size: 12px;
-      padding: 5px 10px;
-      border: 0.5px solid #ccc;
-      border-radius: 8px;
-      background: #fff;
-      color: #333;
-      cursor: pointer;
+      font-size: 12px; padding: 5px 10px;
+      border: 0.5px solid #ccc; border-radius: 8px;
+      background: #fff; color: #333; cursor: pointer;
     }
-
     .banner {
       display: none;
-      background: #fef9ec;
-      border: 0.5px solid #f5c542;
       border-radius: 8px;
       padding: 10px 14px;
       margin-bottom: 1rem;
       font-size: 13px;
-      color: #7a5800;
     }
-
-    .banner.vermelho {
-      background: #fef0f0;
-      border-color: #f5a0a0;
-      color: #7a0000;
-    }
-
+    .banner.amarelo { background: #fef9ec; border: 0.5px solid #f5c542; color: #7a5800; }
+    .banner.vermelho { background: #fef0f0; border: 0.5px solid #f5a0a0; color: #7a0000; }
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
       gap: 10px;
     }
-
     .card {
       background: #fff;
       border: 0.5px solid #e0e0e0;
       border-radius: 12px;
       overflow: hidden;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
     }
-
+    .card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
     .card-header {
       padding: 9px 12px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
+    .card-header .nome { font-size: 12px; font-weight: 500; }
+    .card-header .operadora { font-size: 10px; opacity: 0.8; }
+    .card-body { padding: 9px 12px; }
+    .status-row { display: flex; align-items: center; gap: 6px; margin-bottom: 5px; }
+    .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .status-label { font-size: 11px; font-weight: 500; }
+    .status-desc { font-size: 11px; color: #666; line-height: 1.35; }
+    .ver-mais { font-size: 10px; color: #888; margin-top: 4px; text-decoration: underline; }
+    .rodape { margin-top: 1.5rem; font-size: 11px; color: #aaa; text-align: right; }
 
-    .card-header .nome {
-      font-size: 12px;
-      font-weight: 500;
-    }
-
-    .card-header .operadora {
-      font-size: 10px;
-      opacity: 0.8;
-    }
-
-    .card-body {
-      padding: 9px 12px;
-    }
-
-    .status-row {
-      display: flex;
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 100;
       align-items: center;
-      gap: 6px;
-      margin-bottom: 5px;
+      justify-content: center;
+      padding: 1rem;
     }
+    .modal-overlay.aberto { display: flex; }
+    .modal {
+      background: #fff;
+      border-radius: 14px;
+      max-width: 420px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    }
+    .modal-header {
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .modal-header .nome { font-size: 14px; font-weight: 500; }
+    .modal-header .operadora { font-size: 11px; opacity: 0.8; }
+    .modal-fechar {
+      background: none; border: none; cursor: pointer;
+      font-size: 18px; line-height: 1; opacity: 0.7; padding: 2px 6px;
+    }
+    .modal-body { padding: 14px 16px; }
+    .modal-status-row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .modal-dot { width: 9px; height: 9px; border-radius: 50%; }
+    .modal-label { font-size: 13px; font-weight: 500; }
+    .modal-desc { font-size: 13px; color: #444; line-height: 1.6; }
+    .modal-fonte { font-size: 11px; color: #aaa; margin-top: 10px; }
 
-    .dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    .status-label {
-      font-size: 11px;
-      font-weight: 500;
-    }
-
-    .status-desc {
-      font-size: 11px;
-      color: #666;
-      line-height: 1.35;
-    }
-
-    .rodape {
-      margin-top: 1.5rem;
-      font-size: 11px;
-      color: #aaa;
-      text-align: right;
-    }
-
-    .erro-msg {
-      font-size: 13px;
-      color: #c0392b;
-      padding: 1rem 0;
-    }
-
-    @media (max-width: 480px) {
-      .grid { grid-template-columns: 1fr 1fr; }
-    }
+    @media (max-width: 480px) { .grid { grid-template-columns: 1fr 1fr; } }
   </style>
 </head>
 <body>
 <div class="container">
-
   <div class="header">
     <div>
       <h1>Status do transporte — SP</h1>
@@ -198,8 +144,28 @@
 
   <div class="banner" id="banner"></div>
   <div class="grid" id="grid"></div>
-  <p class="rodape">Fonte: Dados obtidos pela Agência Mural por meio da API ARTESP · atualizado automaticamente a cada 30 min</p>
+  <p class="rodape">Fonte: API ARTESP · atualizado automaticamente a cada 30 min</p>
+</div>
 
+<!-- Modal -->
+<div class="modal-overlay" id="modal-overlay" onclick="fecharModal(event)">
+  <div class="modal" id="modal">
+    <div class="modal-header" id="modal-header">
+      <div>
+        <div class="nome" id="modal-nome"></div>
+        <div class="operadora" id="modal-operadora"></div>
+      </div>
+      <button class="modal-fechar" onclick="fecharModalBtn()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-status-row">
+        <span class="modal-dot" id="modal-dot"></span>
+        <span class="modal-label" id="modal-label"></span>
+      </div>
+      <p class="modal-desc" id="modal-desc"></p>
+      <p class="modal-fonte" id="modal-fonte"></p>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -229,19 +195,53 @@ function corTexto(hex) {
 }
 
 function infoStatus(emoji) {
-  if (emoji==="🔴") return {label:"Interrompida", dot:"#e74c3c", cor:"#c0392b"};
-  if (emoji==="🟡") return {label:"Com problema", dot:"#f39c12", cor:"#7a5800"};
+  if (emoji==="🔴") return {label:"Interrompida",    dot:"#e74c3c", cor:"#c0392b"};
+  if (emoji==="🟡") return {label:"Com problema",    dot:"#f39c12", cor:"#7a5800"};
   if (emoji==="🟢") return {label:"Operação normal", dot:"#27ae60", cor:"#1a6e35"};
-  return {label:"Sem dados", dot:"#aaa", cor:"#666"};
+  return                    {label:"Sem dados",       dot:"#aaa",    cor:"#666"};
+}
+
+function abrirModal(linha) {
+  const cor = CORES[linha.linha_cor] || "#888";
+  const tc  = corTexto(cor);
+  const si  = infoStatus(linha.emoji);
+
+  document.getElementById("modal-header").style.background = cor;
+  document.getElementById("modal-nome").style.color = tc;
+  document.getElementById("modal-operadora").style.color = tc;
+  document.getElementById("modal-fechar") && (document.querySelector(".modal-fechar").style.color = tc);
+
+  document.getElementById("modal-nome").textContent      = linha.linha_nome || linha.linha_cor;
+  document.getElementById("modal-operadora").textContent = linha.operadora || "";
+  document.getElementById("modal-dot").style.background  = si.dot;
+  document.getElementById("modal-label").textContent     = si.label;
+  document.getElementById("modal-label").style.color     = si.cor;
+  document.getElementById("modal-desc").textContent      = linha.status || "Sem informação disponível";
+  document.getElementById("modal-fonte").textContent     = "Fonte: " + (linha.fonte || "API ARTESP");
+
+  document.getElementById("modal-overlay").classList.add("aberto");
+}
+
+function fecharModal(e) {
+  if (e.target === document.getElementById("modal-overlay")) {
+    document.getElementById("modal-overlay").classList.remove("aberto");
+  }
+}
+
+function fecharModalBtn() {
+  document.getElementById("modal-overlay").classList.remove("aberto");
 }
 
 function renderCard(l) {
-  const cor = CORES[l.linha_cor] || "#888";
-  const tc = corTexto(cor);
-  const si = infoStatus(l.emoji);
-  const desc = (l.status||"").length>65 ? l.status.slice(0,65)+"…" : (l.status||"");
+  const cor  = CORES[l.linha_cor] || "#888";
+  const tc   = corTexto(cor);
+  const si   = infoStatus(l.emoji);
+  const desc = (l.status||"").length > 55 ? l.status.slice(0,55)+"…" : (l.status||"");
+  const temMais = (l.status||"").length > 55;
+  const idx  = todas.indexOf(l);
+
   return `
-  <div class="card">
+  <div class="card" onclick="abrirModal(todas[${idx}])">
     <div class="card-header" style="background:${cor}">
       <span class="nome" style="color:${tc}">${l.linha_nome||l.linha_cor}</span>
       <span class="operadora" style="color:${tc}">${l.operadora||""}</span>
@@ -252,26 +252,27 @@ function renderCard(l) {
         <span class="status-label" style="color:${si.cor}">${si.label}</span>
       </div>
       <p class="status-desc">${desc}</p>
+      ${temMais ? '<p class="ver-mais">ver mais</p>' : ''}
     </div>
   </div>`;
 }
 
 function renderGrid(linhas) {
-  const grid = document.getElementById("grid");
+  const grid   = document.getElementById("grid");
   const banner = document.getElementById("banner");
   const problemas = linhas.filter(l=>l.emoji==="🟡"||l.emoji==="🔴");
 
   if (problemas.length) {
     const temVermelho = problemas.some(l=>l.emoji==="🔴");
-    banner.className = "banner" + (temVermelho?" vermelho":"");
+    banner.className = "banner " + (temVermelho?"vermelho":"amarelo");
     banner.style.display = "block";
-    banner.innerHTML = `<i class="ti ti-alert-triangle"></i> <strong>Atenção:</strong> ${problemas.map(p=>p.linha_nome).join(", ")} com operação afetada agora.`;
+    banner.innerHTML = `<strong>Atenção:</strong> ${problemas.map(p=>p.linha_nome).join(", ")} com operação afetada agora. Clique no card para mais detalhes.`;
   } else {
     banner.style.display = "none";
   }
 
   if (!linhas.length) {
-    grid.innerHTML = `<p class="erro-msg">Nenhuma linha encontrada.</p>`;
+    grid.innerHTML = `<p style="color:#c0392b;font-size:13px">Nenhuma linha encontrada.</p>`;
     return;
   }
 
@@ -295,20 +296,17 @@ function filtrarTerritorio(t) {
 
 async function carregar() {
   try {
-    const r = await fetch(JSON_URL+"?t="+Date.now());
+    const r    = await fetch(JSON_URL+"?t="+Date.now());
     const data = await r.json();
 
     if (data.coletado_em) {
       const d = new Date(data.coletado_em);
       document.getElementById("atualizacao").textContent =
-        "Atualizado em " + d.toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
+        "Atualizado em " + d.toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",
+          day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
     }
-    
-    const raw = [
-      ...(data.problemas||[]),
-      ...(data.normais||[]),
-    ];
 
+    const raw = [...(data.problemas||[]), ...(data.normais||[])];
     const vistas = new Set();
     todas = raw.filter(l=>{
       const k = l.linha_cor||l.linha_nome;
@@ -319,9 +317,14 @@ async function carregar() {
     renderGrid(todas);
   } catch(e) {
     document.getElementById("atualizacao").textContent = "Erro ao carregar dados";
-    document.getElementById("grid").innerHTML = `<p class="erro-msg">Não foi possível carregar o status. Tente novamente em instantes.</p>`;
+    document.getElementById("grid").innerHTML =
+      `<p style="color:#c0392b;font-size:13px">Não foi possível carregar o status. Tente novamente.</p>`;
   }
 }
+
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") fecharModalBtn();
+});
 
 carregar();
 </script>

@@ -1,12 +1,24 @@
 {
-  "coletado_em": "2026-06-01T12:00:21.999244-03:00",
+  "coletado_em": "2026-06-01T12:30:12.855093-03:00",
   "fonte": "API ARTESP (ccm.artesp.sp.gov.br)",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 2
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada de rede aérea entre as estações Vila Lobos Jaguaré e Ceasa, os trens estão circulando com maiores intervalos entre as estações Osasco e Pinheiros. Os intervalos de trens entre as estações Pinheiros e Varginha, seguem inalterados.",
+      "operacao_normal": true,
+      "classificacao": "operacional",
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -86,17 +98,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "classificacao": "operacional",
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
@@ -152,6 +153,23 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada de rede aérea entre as estações Vila Lobos Jaguaré e Ceasa, os trens estão circulando com maiores intervalos entre as estações Osasco e Pinheiros. Os intervalos de trens entre as estações Pinheiros e Varginha, seguem inalterados.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada de rede aérea entre as estações Vila Lobos Jaguaré e Ceasa, os trens estão circulando com maiores intervalos entre as estações Osasco e Pinheiros. Os intervalos de trens entre as estações Pinheiros e Varginha, seguem inalterados.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

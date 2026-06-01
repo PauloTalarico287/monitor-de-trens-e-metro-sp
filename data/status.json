@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-06-01T19:30:12.029579-03:00",
+  "coletado_em": "2026-06-01T20:00:14.498700-03:00",
   "fonte": "API ARTESP (ccm.artesp.sp.gov.br)",
   "resumo": {
     "total_com_problema": 1,
@@ -12,7 +12,7 @@
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos  , o trem que vai para a Estação   Brás   está saindo da Estação   Tatuapé  . Por favor, utilize o trem da Linha   11 - Coral   até a estação   Tatuapé  .",
+      "status": "Devido a   Problemas Técnicos  , o trem que vai para a Estação   Calmon Viana   está saindo da Estação   Tatuapé  . Por favor, utilize o trem da Linha   11 - Coral   até a estação   Tatuapé  .",
       "operacao_normal": true,
       "classificacao": "operacional",
       "emoji": "🟡",
@@ -159,7 +159,7 @@
       "linha_nome": "Linha 12-Safira",
       "linha_cor": "SAFIRA",
       "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos  , o trem que vai para a Estação   Brás   está saindo da Estação   Tatuapé  . Por favor, utilize o trem da Linha   11 - Coral   até a estação   Tatuapé  .",
+      "status": "Devido a   Problemas Técnicos  , o trem que vai para a Estação   Calmon Viana   está saindo da Estação   Tatuapé  . Por favor, utilize o trem da Linha   11 - Coral   até a estação   Tatuapé  .",
       "emoji": "🟡"
     }
   ],

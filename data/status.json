@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-05-31T22:00:20.728470-03:00",
+  "coletado_em": "2026-05-31T22:30:16.508328-03:00",
   "fonte": "API ARTESP (ccm.artesp.sp.gov.br)",
   "resumo": {
-    "total_com_problema": 5,
-    "total_normal": 8,
-    "territorios_com_alerta": 5
+    "total_com_problema": 3,
+    "total_normal": 10,
+    "territorios_com_alerta": 3
   },
   "problemas": [
     {
@@ -38,28 +38,6 @@
       "operacao_normal": true,
       "classificacao": "operacional",
       "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Luz   e    Palmeiras-Barra Funda   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
-      "operacao_normal": true,
-      "classificacao": "operacional",
-      "emoji": "🔴",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "JADE",
-      "linha_numero": 13,
-      "linha_nome": "Linha 13-Jade",
-      "operadora": "CPTM",
-      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Luz   e    Palmeiras-Barra Funda   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
-      "operacao_normal": true,
-      "classificacao": "operacional",
-      "emoji": "🔴",
       "fonte": "API ARTESP"
     }
   ],
@@ -131,9 +109,31 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "classificacao": "operacional",
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "SAFIRA",
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
+      "operadora": "CPTM",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "classificacao": "operacional",
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
@@ -177,22 +177,6 @@
       "operadora": "ViaMobilidade",
       "status": "Devido à manutenção programada nos sistemas de energia e de via permanente, das 20h de sábado (30) até o fim da operação comercial deste domingo (31), o trecho entre as estações João Dias e Primavera-Interlagos está sendo atendido por ônibus do sistema PAESE ( a estação Santo Amaro segue aberta para acesso à Linha 5-Lilás de metrô). A circulação de trens ocorre normalmente entre as estações Primavera-Interlagos e Varginha, e entre as estações João Dias e Osasco.",
       "emoji": "🟡"
-    },
-    {
-      "territorio": "Suzano",
-      "linha_nome": "Linha 11-Coral",
-      "linha_cor": "CORAL",
-      "operadora": "CPTM",
-      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Luz   e    Palmeiras-Barra Funda   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
-      "emoji": "🔴"
-    },
-    {
-      "territorio": "Guarulhos",
-      "linha_nome": "Linha 13-Jade",
-      "linha_cor": "JADE",
-      "operadora": "CPTM",
-      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Luz   e    Palmeiras-Barra Funda   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
-      "emoji": "🔴"
     }
   ],
   "ausentes_api": []

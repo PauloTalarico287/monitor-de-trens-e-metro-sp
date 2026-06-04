@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-06-04T17:00:14.657423-03:00",
+  "coletado_em": "2026-06-04T18:00:17.549243-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
@@ -12,7 +12,7 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Atividade Programada — Devido à manutenção programada entre as estações Palmeiras-Barra Funda e Júlio Prestes e entre Barueri e Santa Terezinha, os trens da Linha 8 - Diamante estão circulando com intervalos de 20 minutos e com o embarque e desembarque pela mesma plataforma nestes trechos.",
+      "status": "Operação Normal — 04/06/2026 às 10:12:28 Atividade Programada Devido à manutenção programada entre as estações Palmeiras-Barra Funda e Júlio Prestes e entre Barueri e Santa Terezinha, os trens da Linha 8 - Diamante estão circulando com intervalos de 20 minutos e com o embarque e desembarque pela mes",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "Site ViaMobilidade 8e9"
@@ -146,7 +146,7 @@
       "linha_nome": "Linha 8-Diamante",
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
-      "status": "Atividade Programada — Devido à manutenção programada entre as estações Palmeiras-Barra Funda e Júlio Prestes e entre Barueri e Santa Terezinha, os trens da Linha 8 - Diamante estão circulando com intervalos de 20 minutos e com o embarque e desembarque pela mesma plataforma nestes trechos.",
+      "status": "Operação Normal — 04/06/2026 às 10:12:28 Atividade Programada Devido à manutenção programada entre as estações Palmeiras-Barra Funda e Júlio Prestes e entre Barueri e Santa Terezinha, os trens da Linha 8 - Diamante estão circulando com intervalos de 20 minutos e com o embarque e desembarque pela mes",
       "emoji": "🟡"
     }
   ],

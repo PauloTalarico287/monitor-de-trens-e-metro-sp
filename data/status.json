@@ -1,23 +1,12 @@
 {
-  "coletado_em": "2026-06-04T22:29:59.467648-03:00",
+  "coletado_em": "2026-06-04T22:33:33.673434-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 1
+    "total_com_problema": 0,
+    "total_normal": 13,
+    "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal — 04/06/2026 às 10:12:28 Atividade Programada Devido à manutenção programada entre as estações Palmeiras-Barra Funda e Júlio Prestes e entre Barueri e Santa Terezinha, os trens da Linha 8 - Diamante estão circulando com intervalos de 20 minutos e com o embarque e desembarque pela mes",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "Site ViaMobilidade 8e9"
-    }
-  ],
+  "problemas": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -74,6 +63,16 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",
@@ -140,15 +139,6 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal — 04/06/2026 às 10:12:28 Atividade Programada Devido à manutenção programada entre as estações Palmeiras-Barra Funda e Júlio Prestes e entre Barueri e Santa Terezinha, os trens da Linha 8 - Diamante estão circulando com intervalos de 20 minutos e com o embarque e desembarque pela mes",
-      "emoji": "🟡"
-    }
-  ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

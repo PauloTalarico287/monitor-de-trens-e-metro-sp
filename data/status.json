@@ -1,23 +1,12 @@
 {
-  "coletado_em": "2026-06-11T16:00:13.766456-03:00",
+  "coletado_em": "2026-06-11T17:00:16.226166-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
+    "total_com_problema": 0,
+    "total_normal": 13,
     "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "VERMELHA",
-      "linha_numero": 3,
-      "linha_nome": "Linha 3-Vermelha",
-      "operadora": "Metro SP",
-      "status": "Velocidade Reduzida",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    }
-  ],
+  "problemas": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -33,6 +22,16 @@
       "linha_cor": "VERDE",
       "linha_numero": 2,
       "linha_nome": "Linha 2-Verde",
+      "operadora": "Metro SP",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "VERMELHA",
+      "linha_numero": 3,
+      "linha_nome": "Linha 3-Vermelha",
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": true,

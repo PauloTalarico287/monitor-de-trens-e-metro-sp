@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-06-12T16:00:14.646829-03:00",
+  "coletado_em": "2026-06-12T17:00:16.444448-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Devido a Problemas Técnicos , os trens da Linha 11 - Coral estão circulando com intervalos maiores entre as Estações Luz e Palmeiras-Barra Funda. Passageiros com destino a estas estações utilizarem preferencialmente a Linha 10 - Turquesa ou o Metrô.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -99,16 +110,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "SAFIRA",
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
@@ -139,6 +140,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Suzano",
+      "linha_nome": "Linha 11-Coral",
+      "linha_cor": "CORAL",
+      "operadora": "CPTM",
+      "status": "Devido a Problemas Técnicos , os trens da Linha 11 - Coral estão circulando com intervalos maiores entre as Estações Luz e Palmeiras-Barra Funda. Passageiros com destino a estas estações utilizarem preferencialmente a Linha 10 - Turquesa ou o Metrô.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

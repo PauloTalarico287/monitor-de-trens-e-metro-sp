@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-06-12T11:00:16.287779-03:00",
+  "coletado_em": "2026-06-12T12:00:13.342488-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 0,
@@ -63,7 +63,7 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
-      "status": "Devido à avaria em equipamento de via, os passageiros que estão no sentido Jundiaí ou Palmeiras-Barra Funda precisam realizar a transferência obrigatória em Francisco Morato",
+      "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"

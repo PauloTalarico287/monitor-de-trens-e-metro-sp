@@ -1,23 +1,24 @@
 {
-  "coletado_em": "2026-06-12T23:00:16.126511-03:00",
+  "coletado_em": "2026-06-13T05:00:18.427611-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
-  "normais": [
+  "problemas": [
     {
       "linha_cor": "AZUL",
       "linha_numero": 1,
       "linha_nome": "Linha 1-Azul",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Velocidade Reduzida",
       "operacao_normal": true,
-      "emoji": "🟢",
+      "emoji": "🟡",
       "fonte": "API ARTESP"
-    },
+    }
+  ],
+  "normais": [
     {
       "linha_cor": "VERDE",
       "linha_numero": 2,
@@ -139,6 +140,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Jacana",
+      "linha_nome": "Linha 1-Azul",
+      "linha_cor": "AZUL",
+      "operadora": "Metro SP",
+      "status": "Velocidade Reduzida",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

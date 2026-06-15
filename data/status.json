@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-06-15T07:00:14.497777-03:00",
+  "coletado_em": "2026-06-15T08:00:14.764987-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "TURQUESA",
+      "linha_numero": 10,
+      "linha_nome": "Linha 10-Turquesa",
+      "operadora": "CPTM",
+      "status": "Devido a   Problemas Técnicos no Sistema de Energia  , os trens da Linha   10 - Turquesa   estão circulando com intervalos maiores entre as Estações    Pref. Celso Daniel-Santo André   e   São Caetano Do Sul-Pref. Walter Braido  .",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -89,16 +100,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "TURQUESA",
-      "linha_numero": 10,
-      "linha_nome": "Linha 10-Turquesa",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "CORAL",
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
@@ -139,6 +140,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Maua",
+      "linha_nome": "Linha 10-Turquesa",
+      "linha_cor": "TURQUESA",
+      "operadora": "CPTM",
+      "status": "Devido a   Problemas Técnicos no Sistema de Energia  , os trens da Linha   10 - Turquesa   estão circulando com intervalos maiores entre as Estações    Pref. Celso Daniel-Santo André   e   São Caetano Do Sul-Pref. Walter Braido  .",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

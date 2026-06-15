@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-06-14T22:00:16.784196-03:00",
+  "coletado_em": "2026-06-14T23:00:15.579386-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 2,
@@ -12,7 +12,7 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
-      "status": "Para execução de obras de modernização da Linha 7-Rubi, os trens circulam por via única entre Caieiras e Perus, com embarque e desembarque na mesma plataforma nos dois sentidos.",
+      "status": "Para execução de obras de modernização da Linha 7-Rubi, os trens circulam por via única na estação Francisco Morato, com embarque e desembarque na mesma plataforma nos dois sentidos.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"

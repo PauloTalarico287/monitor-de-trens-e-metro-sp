@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-06-18T05:00:25.744940-03:00",
+  "coletado_em": "2026-06-18T06:00:37.129349-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "AMARELA",
+      "linha_numero": 4,
+      "linha_nome": "Linha 4-Amarela",
+      "operadora": "Motiva",
+      "status": "Devido à falha em equipamento de via na região da estação da Luz, estamos operando com velocidade reduzida e maiores intervalos entre as estações República e Luz.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -33,16 +44,6 @@
       "linha_numero": 3,
       "linha_nome": "Linha 3-Vermelha",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "AMARELA",
-      "linha_numero": 4,
-      "linha_nome": "Linha 4-Amarela",
-      "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",
@@ -139,6 +140,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Paraisopolis",
+      "linha_nome": "Linha 4-Amarela",
+      "linha_cor": "AMARELA",
+      "operadora": "Motiva",
+      "status": "Devido à falha em equipamento de via na região da estação da Luz, estamos operando com velocidade reduzida e maiores intervalos entre as estações República e Luz.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

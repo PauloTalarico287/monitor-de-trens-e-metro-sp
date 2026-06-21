@@ -1,12 +1,22 @@
 {
-  "coletado_em": "2026-06-21T10:00:13.550410-03:00",
+  "coletado_em": "2026-06-21T11:00:14.593504-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 3,
-    "total_normal": 10,
-    "territorios_com_alerta": 3
+    "total_com_problema": 4,
+    "total_normal": 9,
+    "territorios_com_alerta": 4
   },
   "problemas": [
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada entre as estações Santa Terezinha e Antônio João, o embarque e desembarque na estação Antônio João acontecem pela plataforma 1. A circulação dos trens ocorre com intervalos maiores.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
     {
       "linha_cor": "CORAL",
       "linha_numero": 11,
@@ -100,16 +110,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
@@ -141,6 +141,14 @@
     }
   ],
   "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à manutenção programada entre as estações Santa Terezinha e Antônio João, o embarque e desembarque na estação Antônio João acontecem pela plataforma 1. A circulação dos trens ocorre com intervalos maiores.",
+      "emoji": "🟡"
+    },
     {
       "territorio": "Suzano",
       "linha_nome": "Linha 11-Coral",

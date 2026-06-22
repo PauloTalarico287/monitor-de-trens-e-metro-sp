@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-06-22T13:00:17.509040-03:00",
+  "coletado_em": "2026-06-22T14:00:11.796314-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 2,
@@ -12,7 +12,7 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8 Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e pela mesma plataforma entre as estações Jardim Belval e Jandira.",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e embarques pela mesma plataforma entre as estações Jardim Belval e Jandira.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -22,7 +22,7 @@
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 9 Esmeralda circulam com maiores intervalos entre as estações Varginha e Socorro, e pela mesma plataforma nas estações Jurubatuba-Senac e Socorro. ",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Varginha e Socorro, e embarques pela mesma plataforma nas estações Jurubatuba-Senac e Socorro. ",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -146,7 +146,7 @@
       "linha_nome": "Linha 8-Diamante",
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8 Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e pela mesma plataforma entre as estações Jardim Belval e Jandira.",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e embarques pela mesma plataforma entre as estações Jardim Belval e Jandira.",
       "emoji": "🟡"
     },
     {
@@ -154,7 +154,7 @@
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 9 Esmeralda circulam com maiores intervalos entre as estações Varginha e Socorro, e pela mesma plataforma nas estações Jurubatuba-Senac e Socorro. ",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Varginha e Socorro, e embarques pela mesma plataforma nas estações Jurubatuba-Senac e Socorro. ",
       "emoji": "🟡"
     },
     {
@@ -162,7 +162,7 @@
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 9 Esmeralda circulam com maiores intervalos entre as estações Varginha e Socorro, e pela mesma plataforma nas estações Jurubatuba-Senac e Socorro. ",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Varginha e Socorro, e embarques pela mesma plataforma nas estações Jurubatuba-Senac e Socorro. ",
       "emoji": "🟡"
     }
   ],

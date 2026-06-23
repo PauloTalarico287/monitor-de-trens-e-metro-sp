@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-06-23T11:00:14.597083-03:00",
+  "coletado_em": "2026-06-23T12:00:14.657652-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 0
+    "total_com_problema": 3,
+    "total_normal": 10,
+    "territorios_com_alerta": 3
   },
   "problemas": [
     {
@@ -13,6 +13,26 @@
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
       "status": "Devido ao incêndio nas proximidades da via e por segurança operacional, os trens sentido Palmeiras-Barra Funda circularão por via única na estação Lapa e não atenderão à estação Água Branca",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8 Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e pela mesma plataforma entre as estações Jardim Belval e Jandira.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de via permanente na região de Osasco, os trens da Linha 9 - Esmeralda, retornarão da estação Presidente Altino. Clientes com destino a Osasco, deverão utilizar os trens da Linha 8 - Diamante na estação Presidente Altino.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -70,26 +90,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
@@ -140,6 +140,31 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8 Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e pela mesma plataforma entre as estações Jardim Belval e Jandira.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de via permanente na região de Osasco, os trens da Linha 9 - Esmeralda, retornarão da estação Presidente Altino. Clientes com destino a Osasco, deverão utilizar os trens da Linha 8 - Diamante na estação Presidente Altino.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de via permanente na região de Osasco, os trens da Linha 9 - Esmeralda, retornarão da estação Presidente Altino. Clientes com destino a Osasco, deverão utilizar os trens da Linha 8 - Diamante na estação Presidente Altino.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

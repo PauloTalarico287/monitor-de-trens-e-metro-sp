@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-06-28T08:00:18.770422-03:00",
+  "coletado_em": "2026-06-28T09:00:22.676802-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 0
+    "total_com_problema": 4,
+    "total_normal": 9,
+    "territorios_com_alerta": 3
   },
   "problemas": [
     {
@@ -15,6 +15,36 @@
       "status": "Para execução de obras de modernização da Linha 7-Rubi, os trens circulam em via única entre Francisco Morato e Baltazar Fidélis, com embarque e desembarque na mesma plataforma nos dois sentidos.",
       "operacao_normal": true,
       "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi, e embarques pela mesma plataforma na estação Lapa.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Devido a Serviços de Manutenção a circulação de trens entre as estações Luz e Palmeiras-Barra Funda está interrompida. Como alternativa utilize a Linha 10-Turquesa.",
+      "operacao_normal": true,
+      "emoji": "🔴",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
+      "operadora": "CPTM",
+      "status": "Devido a Serviços  de  Manutenção a  circulação  de  trens  entre  as  estações  Luz  e  Palmeiras - Barra Funda está  interrompida. Como  alternativa  utilize  a  Linha 10 - Turquesa .",
+      "operacao_normal": true,
+      "emoji": "🔴",
       "fonte": "API ARTESP"
     }
   ],
@@ -70,16 +100,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
@@ -100,29 +120,9 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "SAFIRA",
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "JADE",
-      "linha_numero": 13,
-      "linha_nome": "Linha 13-Jade",
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
@@ -140,6 +140,31 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi, e embarques pela mesma plataforma na estação Lapa.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Suzano",
+      "linha_nome": "Linha 11-Coral",
+      "linha_cor": "CORAL",
+      "operadora": "CPTM",
+      "status": "Devido a Serviços de Manutenção a circulação de trens entre as estações Luz e Palmeiras-Barra Funda está interrompida. Como alternativa utilize a Linha 10-Turquesa.",
+      "emoji": "🔴"
+    },
+    {
+      "territorio": "Guarulhos",
+      "linha_nome": "Linha 13-Jade",
+      "linha_cor": "JADE",
+      "operadora": "CPTM",
+      "status": "Devido a Serviços  de  Manutenção a  circulação  de  trens  entre  as  estações  Luz  e  Palmeiras - Barra Funda está  interrompida. Como  alternativa  utilize  a  Linha 10 - Turquesa .",
+      "emoji": "🔴"
+    }
+  ],
   "ausentes_api": []
 }

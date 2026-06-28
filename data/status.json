@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-06-28T09:00:22.676802-03:00",
+  "coletado_em": "2026-06-28T10:00:16.061187-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 4,
-    "total_normal": 9,
-    "territorios_com_alerta": 3
+    "total_com_problema": 5,
+    "total_normal": 8,
+    "territorios_com_alerta": 5
   },
   "problemas": [
     {
@@ -23,6 +23,16 @@
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
       "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi, e embarques pela mesma plataforma na estação Lapa.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha, e embarques pela mesma plataforma entre as estações João Dias e Santo Amaro.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -100,16 +110,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
@@ -147,6 +147,22 @@
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
       "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi, e embarques pela mesma plataforma na estação Lapa.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha, e embarques pela mesma plataforma entre as estações João Dias e Santo Amaro.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha, e embarques pela mesma plataforma entre as estações João Dias e Santo Amaro.",
       "emoji": "🟡"
     },
     {

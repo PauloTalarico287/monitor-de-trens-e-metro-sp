@@ -1,33 +1,12 @@
 {
-  "coletado_em": "2026-06-28T23:00:18.399409-03:00",
+  "coletado_em": "2026-06-29T05:00:29.479388-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 11,
-    "territorios_com_alerta": 1
+    "total_com_problema": 0,
+    "total_normal": 13,
+    "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "RUBI",
-      "linha_numero": 7,
-      "linha_nome": "Linha 7-Rubi",
-      "operadora": "TIC Trens",
-      "status": "Para execução de obras de modernização da Linha 7-Rubi, os trens circulam em via única entre Francisco Morato e Baltazar Fidélis, com embarque e desembarque na mesma plataforma nos dois sentidos.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi, e embarques pela mesma plataforma na estação Lapa.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    }
-  ],
+  "problemas": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -73,6 +52,26 @@
       "linha_cor": "LILAS",
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "RUBI",
+      "linha_numero": 7,
+      "linha_nome": "Linha 7-Rubi",
+      "operadora": "TIC Trens",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
@@ -140,15 +139,6 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi, e embarques pela mesma plataforma na estação Lapa.",
-      "emoji": "🟡"
-    }
-  ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

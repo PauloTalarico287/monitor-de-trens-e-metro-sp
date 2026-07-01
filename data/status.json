@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-07-01T16:00:11.447276-03:00",
+  "coletado_em": "2026-07-01T17:00:13.060269-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
+    "total_com_problema": 1,
+    "total_normal": 12,
     "territorios_com_alerta": 0
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "RUBI",
+      "linha_numero": 7,
+      "linha_nome": "Linha 7-Rubi",
+      "operadora": "TIC Trens",
+      "status": "Devido a falha em equipamento de via, trens circulam com velocidade reduzida e maior tempo de parada entre as estações de PQR e LPA nas vias 1 e 2",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -53,16 +64,6 @@
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
       "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "RUBI",
-      "linha_numero": 7,
-      "linha_nome": "Linha 7-Rubi",
-      "operadora": "TIC Trens",
       "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",

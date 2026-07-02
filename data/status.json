@@ -1,20 +1,21 @@
 {
-  "coletado_em": "2026-07-02T17:00:18.289422-03:00",
+  "coletado_em": "2026-07-02T18:00:14.318410-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 11,
-    "territorios_com_alerta": 1
+    "total_com_problema": 0,
+    "total_normal": 13,
+    "territorios_com_alerta": 0
   },
-  "problemas": [
+  "problemas": [],
+  "normais": [
     {
       "linha_cor": "AZUL",
       "linha_numero": 1,
       "linha_nome": "Linha 1-Azul",
       "operadora": "Metro SP",
-      "status": "Velocidade Reduzida",
+      "status": "Operação Normal",
       "operacao_normal": true,
-      "emoji": "🟡",
+      "emoji": "🟢",
       "fonte": "API ARTESP"
     },
     {
@@ -22,13 +23,11 @@
       "linha_numero": 2,
       "linha_nome": "Linha 2-Verde",
       "operadora": "Metro SP",
-      "status": "Velocidade Reduzida",
+      "status": "Operação Normal",
       "operacao_normal": true,
-      "emoji": "🟡",
+      "emoji": "🟢",
       "fonte": "API ARTESP"
-    }
-  ],
-  "normais": [
+    },
     {
       "linha_cor": "VERMELHA",
       "linha_numero": 3,
@@ -140,15 +139,6 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [
-    {
-      "territorio": "Jacana",
-      "linha_nome": "Linha 1-Azul",
-      "linha_cor": "AZUL",
-      "operadora": "Metro SP",
-      "status": "Velocidade Reduzida",
-      "emoji": "🟡"
-    }
-  ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-07-02T12:00:18.936805-03:00",
+  "coletado_em": "2026-07-02T13:00:16.255885-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
@@ -12,7 +12,7 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e pela mesma plataforma entre as estações Sagrado Coração e Engenheiro Cardoso.",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Sagrado Coração e Itapevi, e pela mesma plataforma entre as estações Sagrado Coração e Engenheiro Cardoso.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -146,7 +146,7 @@
       "linha_nome": "Linha 8-Diamante",
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi, e pela mesma plataforma entre as estações Sagrado Coração e Engenheiro Cardoso.",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Sagrado Coração e Itapevi, e pela mesma plataforma entre as estações Sagrado Coração e Engenheiro Cardoso.",
       "emoji": "🟡"
     }
   ],

@@ -1,23 +1,12 @@
 {
-  "coletado_em": "2026-07-03T07:00:15.485776-03:00",
+  "coletado_em": "2026-07-03T08:00:11.457543-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
+    "total_com_problema": 0,
+    "total_normal": 13,
     "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "RUBI",
-      "linha_numero": 7,
-      "linha_nome": "Linha 7-Rubi",
-      "operadora": "TIC Trens",
-      "status": "Devido à falha em equipamento de via na região de Campo Limpo Paulista, os trens circulam com velocidade reduzida no local e a transferência em Francisco Morato é obrigatória para prosseguir viagem.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    }
-  ],
+  "problemas": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -64,6 +53,16 @@
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
       "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "RUBI",
+      "linha_numero": 7,
+      "linha_nome": "Linha 7-Rubi",
+      "operadora": "TIC Trens",
       "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",

@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-07-06T12:00:15.452465-03:00",
+  "coletado_em": "2026-07-06T13:00:19.112927-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 1
+    "total_com_problema": 2,
+    "total_normal": 11,
+    "territorios_com_alerta": 2
   },
   "problemas": [
     {
@@ -13,6 +13,16 @@
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
       "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "TURQUESA",
+      "linha_numero": 10,
+      "linha_nome": "Linha 10-Turquesa",
+      "operadora": "CPTM",
+      "status": "Devido a   Ato de Vandalismo  , os trens da Linha   10 - Turquesa   estão circulando com intervalos maiores entre as Estações    Mauá   e   Rio Grande Da Serra  .",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -90,16 +100,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "TURQUESA",
-      "linha_numero": 10,
-      "linha_nome": "Linha 10-Turquesa",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "CORAL",
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
@@ -147,6 +147,14 @@
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
       "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Maua",
+      "linha_nome": "Linha 10-Turquesa",
+      "linha_cor": "TURQUESA",
+      "operadora": "CPTM",
+      "status": "Devido a   Ato de Vandalismo  , os trens da Linha   10 - Turquesa   estão circulando com intervalos maiores entre as Estações    Mauá   e   Rio Grande Da Serra  .",
       "emoji": "🟡"
     }
   ],

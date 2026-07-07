@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-07-07T05:00:16.673296-03:00",
+  "coletado_em": "2026-07-07T06:00:29.621555-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "SAFIRA",
+      "linha_numero": 12,
+      "linha_nome": "Linha 12-Safira",
+      "operadora": "CPTM",
+      "status": "Devido a   Problemas Técnicos nos Equipamentos de Via  , os trens da Linha   12 - Safira   estão circulando com intervalos maiores entre as Estações    Brás   e   Calmon Viana  .",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -109,16 +120,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "SAFIRA",
-      "linha_numero": 12,
-      "linha_nome": "Linha 12-Safira",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "JADE",
       "linha_numero": 13,
       "linha_nome": "Linha 13-Jade",
@@ -139,6 +140,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Itaim Paulista",
+      "linha_nome": "Linha 12-Safira",
+      "linha_cor": "SAFIRA",
+      "operadora": "CPTM",
+      "status": "Devido a   Problemas Técnicos nos Equipamentos de Via  , os trens da Linha   12 - Safira   estão circulando com intervalos maiores entre as Estações    Brás   e   Calmon Viana  .",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

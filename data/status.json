@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-07-09T22:00:17.424859-03:00",
+  "coletado_em": "2026-07-09T23:00:13.781649-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 0
+    "total_com_problema": 2,
+    "total_normal": 11,
+    "territorios_com_alerta": 2
   },
   "problemas": [
     {
@@ -13,6 +13,16 @@
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
       "status": "Obras de modernização da linha: 16h à 0h, trens circulam em via única entre Franco da Rocha e Baltazar Fidélis, com embarque/desembarque na mesma plataforma. Em Caieiras, aguarde trem para Jundiaí.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada no sistema de energia na região entre Imperatriz Leopoldina e Osasco, os trens da Linha 9 - Esmeralda retornarão da estação Presidente Altino. Clientes com destino a Osasco deverão utilizar os trens da Linha 8 - Diamante na estação Presidente Altino.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -80,16 +90,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
@@ -140,6 +140,23 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada no sistema de energia na região entre Imperatriz Leopoldina e Osasco, os trens da Linha 9 - Esmeralda retornarão da estação Presidente Altino. Clientes com destino a Osasco deverão utilizar os trens da Linha 8 - Diamante na estação Presidente Altino.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada no sistema de energia na região entre Imperatriz Leopoldina e Osasco, os trens da Linha 9 - Esmeralda retornarão da estação Presidente Altino. Clientes com destino a Osasco deverão utilizar os trens da Linha 8 - Diamante na estação Presidente Altino.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

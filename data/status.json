@@ -1,12 +1,22 @@
 {
-  "coletado_em": "2026-07-12T09:00:19.418532-03:00",
+  "coletado_em": "2026-07-12T10:00:15.097575-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 11,
-    "territorios_com_alerta": 2
+    "total_com_problema": 3,
+    "total_normal": 10,
+    "territorios_com_alerta": 4
   },
   "problemas": [
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, na região entre SOC e JOD, os trens da Linha 9-Esmeralda circulam com maiores intervalos.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
     {
       "linha_cor": "CORAL",
       "linha_numero": 11,
@@ -100,16 +110,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
@@ -141,6 +141,22 @@
     }
   ],
   "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, na região entre SOC e JOD, os trens da Linha 9-Esmeralda circulam com maiores intervalos.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, na região entre SOC e JOD, os trens da Linha 9-Esmeralda circulam com maiores intervalos.",
+      "emoji": "🟡"
+    },
     {
       "territorio": "Suzano",
       "linha_nome": "Linha 11-Coral",

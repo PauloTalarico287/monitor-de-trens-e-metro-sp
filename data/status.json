@@ -1,12 +1,33 @@
 {
-  "coletado_em": "2026-07-12T08:00:14.635053-03:00",
+  "coletado_em": "2026-07-12T09:00:19.418532-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 2,
+    "total_normal": 11,
+    "territorios_com_alerta": 2
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Palmeiras-Barra Funda   e    Luz   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
+      "operacao_normal": true,
+      "emoji": "🔴",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
+      "operadora": "CPTM",
+      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Luz   e    Palmeiras-Barra Funda   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
+      "operacao_normal": true,
+      "emoji": "🔴",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -99,29 +120,9 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "SAFIRA",
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "JADE",
-      "linha_numero": 13,
-      "linha_nome": "Linha 13-Jade",
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
@@ -139,6 +140,23 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Suzano",
+      "linha_nome": "Linha 11-Coral",
+      "linha_cor": "CORAL",
+      "operadora": "CPTM",
+      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Palmeiras-Barra Funda   e    Luz   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
+      "emoji": "🔴"
+    },
+    {
+      "territorio": "Guarulhos",
+      "linha_nome": "Linha 13-Jade",
+      "linha_cor": "JADE",
+      "operadora": "CPTM",
+      "status": "Devido a    Serviços de Manutenção   a circulação de trens entre as estações    Luz   e    Palmeiras-Barra Funda   está interrompida. Como alternativa utiliza a Linha    10 - Turquesa  .",
+      "emoji": "🔴"
+    }
+  ],
   "ausentes_api": []
 }

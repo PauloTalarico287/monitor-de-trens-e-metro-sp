@@ -1,33 +1,12 @@
 {
-  "coletado_em": "2026-07-12T23:00:12.406592-03:00",
+  "coletado_em": "2026-07-13T05:00:18.040314-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 11,
-    "territorios_com_alerta": 2
+    "total_com_problema": 0,
+    "total_normal": 13,
+    "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "RUBI",
-      "linha_numero": 7,
-      "linha_nome": "Linha 7-Rubi",
-      "operadora": "TIC Trens",
-      "status": "Obras de modernização da linha: 18h à 0h, trens circulam em via única entre Perus e Caieiras, com embarque/desembarque na mesma plataforma. Em Vila Aurora, aguarde trem para Jundiaí.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, na região entre Socorro e João Dias, os trens da Linha 9-Esmeralda circulam com maiores intervalos.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    }
-  ],
+  "problemas": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -80,9 +59,29 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "RUBI",
+      "linha_numero": 7,
+      "linha_nome": "Linha 7-Rubi",
+      "operadora": "TIC Trens",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "DIAMANTE",
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
@@ -140,23 +139,6 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, na região entre Socorro e João Dias, os trens da Linha 9-Esmeralda circulam com maiores intervalos.",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Grajau",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, na região entre Socorro e João Dias, os trens da Linha 9-Esmeralda circulam com maiores intervalos.",
-      "emoji": "🟡"
-    }
-  ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

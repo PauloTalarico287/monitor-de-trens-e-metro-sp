@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-07-15T12:00:15.884314-03:00",
+  "coletado_em": "2026-07-15T13:00:20.326588-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -63,16 +74,6 @@
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",
@@ -139,6 +140,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

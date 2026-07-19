@@ -1,18 +1,18 @@
 {
-  "coletado_em": "2026-07-19T13:00:14.644406-03:00",
+  "coletado_em": "2026-07-19T14:00:10.789518-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 3,
     "total_normal": 10,
-    "territorios_com_alerta": 2
+    "territorios_com_alerta": 3
   },
   "problemas": [
     {
-      "linha_cor": "RUBI",
-      "linha_numero": 7,
-      "linha_nome": "Linha 7-Rubi",
-      "operadora": "TIC Trens",
-      "status": "Para obras de modernização, entre 8h e 18h, os trens da Linha 7-Rubi circulam com restrição de velocidade entre Perus e Franco da Rocha. Neste período, o tempo de viagem tem acréscimo de 10 minutos.",
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -90,10 +90,10 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
+      "linha_cor": "RUBI",
+      "linha_numero": 7,
+      "linha_nome": "Linha 7-Rubi",
+      "operadora": "TIC Trens",
       "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",
@@ -141,6 +141,14 @@
     }
   ],
   "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "emoji": "🟡"
+    },
     {
       "territorio": "Suzano",
       "linha_nome": "Linha 11-Coral",

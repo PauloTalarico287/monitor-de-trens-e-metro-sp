@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-07-20T09:00:16.810364-03:00",
+  "coletado_em": "2026-07-20T10:00:12.647333-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 0,
@@ -133,7 +133,7 @@
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
       "operadora": "Metro SP",
-      "status": "Impacto Pontual",
+      "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"

@@ -1,22 +1,12 @@
 {
-  "coletado_em": "2026-07-23T09:00:21.121462-03:00",
+  "coletado_em": "2026-07-23T10:00:20.145591-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 4,
-    "total_normal": 9,
-    "territorios_com_alerta": 4
+    "total_com_problema": 3,
+    "total_normal": 10,
+    "territorios_com_alerta": 3
   },
   "problemas": [
-    {
-      "linha_cor": "TURQUESA",
-      "linha_numero": 10,
-      "linha_nome": "Linha 10-Turquesa",
-      "operadora": "CPTM",
-      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Ribeirão Pires-Antônio Bespalec   e    Mauá  , devido a    Ato de Vandalismo  . Agradecemos a sua compreensão",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
     {
       "linha_cor": "CORAL",
       "linha_numero": 11,
@@ -130,6 +120,16 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "TURQUESA",
+      "linha_numero": 10,
+      "linha_nome": "Linha 10-Turquesa",
+      "operadora": "CPTM",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "PRATA",
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
@@ -141,14 +141,6 @@
     }
   ],
   "alertas_territorios": [
-    {
-      "territorio": "Maua",
-      "linha_nome": "Linha 10-Turquesa",
-      "linha_cor": "TURQUESA",
-      "operadora": "CPTM",
-      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Ribeirão Pires-Antônio Bespalec   e    Mauá  , devido a    Ato de Vandalismo  . Agradecemos a sua compreensão",
-      "emoji": "🟡"
-    },
     {
       "territorio": "Suzano",
       "linha_nome": "Linha 11-Coral",

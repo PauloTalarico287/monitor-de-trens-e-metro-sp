@@ -1,12 +1,22 @@
 {
-  "coletado_em": "2026-07-23T06:00:39.648185-03:00",
+  "coletado_em": "2026-07-23T08:00:18.042640-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 1
+    "total_com_problema": 5,
+    "total_normal": 8,
+    "territorios_com_alerta": 4
   },
   "problemas": [
+    {
+      "linha_cor": "VERMELHA",
+      "linha_numero": 3,
+      "linha_nome": "Linha 3-Vermelha",
+      "operadora": "Metro SP",
+      "status": "Velocidade Reduzida",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
     {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
@@ -15,6 +25,36 @@
       "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Ribeirão Pires-Antônio Bespalec   e    Mauá  , devido a    Ato de Vandalismo  . Agradecemos a sua compreensão",
       "operacao_normal": true,
       "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Operação Parcial",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "SAFIRA",
+      "linha_numero": 12,
+      "linha_nome": "Linha 12-Safira",
+      "operadora": "CPTM",
+      "status": "Operação paralisada entre as estações Brás e USP Leste",
+      "operacao_normal": false,
+      "emoji": "🔴",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
+      "operadora": "CPTM",
+      "status": "Operação Paralisada",
+      "operacao_normal": false,
+      "emoji": "🔴",
       "fonte": "API ARTESP"
     }
   ],
@@ -33,16 +73,6 @@
       "linha_cor": "VERDE",
       "linha_numero": 2,
       "linha_nome": "Linha 2-Verde",
-      "operadora": "Metro SP",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "VERMELHA",
-      "linha_numero": 3,
-      "linha_nome": "Linha 3-Vermelha",
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": true,
@@ -100,36 +130,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "SAFIRA",
-      "linha_numero": 12,
-      "linha_nome": "Linha 12-Safira",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "JADE",
-      "linha_numero": 13,
-      "linha_nome": "Linha 13-Jade",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "PRATA",
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
@@ -148,6 +148,30 @@
       "operadora": "CPTM",
       "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Ribeirão Pires-Antônio Bespalec   e    Mauá  , devido a    Ato de Vandalismo  . Agradecemos a sua compreensão",
       "emoji": "🟡"
+    },
+    {
+      "territorio": "Suzano",
+      "linha_nome": "Linha 11-Coral",
+      "linha_cor": "CORAL",
+      "operadora": "CPTM",
+      "status": "Operação Parcial",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Itaim Paulista",
+      "linha_nome": "Linha 12-Safira",
+      "linha_cor": "SAFIRA",
+      "operadora": "CPTM",
+      "status": "Operação paralisada entre as estações Brás e USP Leste",
+      "emoji": "🔴"
+    },
+    {
+      "territorio": "Guarulhos",
+      "linha_nome": "Linha 13-Jade",
+      "linha_cor": "JADE",
+      "operadora": "CPTM",
+      "status": "Operação Paralisada",
+      "emoji": "🔴"
     }
   ],
   "ausentes_api": []

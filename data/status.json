@@ -1,28 +1,18 @@
 {
-  "coletado_em": "2026-07-23T13:00:18.264486-03:00",
+  "coletado_em": "2026-07-23T14:00:16.452264-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 11,
-    "territorios_com_alerta": 2
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
   "problemas": [
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Barra Funda.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
     {
       "linha_cor": "SAFIRA",
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Operação parcial entre as estações CVN e TAT",
+      "status": "Maiores intervalos entre as estações Brás e Tatuapé",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -90,6 +80,16 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
@@ -142,19 +142,11 @@
   ],
   "alertas_territorios": [
     {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Barra Funda.",
-      "emoji": "🟡"
-    },
-    {
       "territorio": "Itaim Paulista",
       "linha_nome": "Linha 12-Safira",
       "linha_cor": "SAFIRA",
       "operadora": "CPTM",
-      "status": "Operação parcial entre as estações CVN e TAT",
+      "status": "Maiores intervalos entre as estações Brás e Tatuapé",
       "emoji": "🟡"
     }
   ],

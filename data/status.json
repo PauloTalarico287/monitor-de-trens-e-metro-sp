@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-03T23:00:12.933846-03:00",
+  "coletado_em": "2026-08-04T05:00:18.877786-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 0,
@@ -13,7 +13,7 @@
       "linha_numero": 1,
       "linha_nome": "Linha 1-Azul",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Operação Especial",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
@@ -23,7 +23,7 @@
       "linha_numero": 2,
       "linha_nome": "Linha 2-Verde",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Operação Especial",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
@@ -33,7 +33,7 @@
       "linha_numero": 3,
       "linha_nome": "Linha 3-Vermelha",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Operação Especial",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
@@ -103,7 +103,7 @@
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
       "operadora": "CPTM",
-      "status": "Operação Normal",
+      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases.",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
@@ -113,9 +113,9 @@
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
+      "status": "Por motivo de greve os trens da Linha 12-Safira não estão operando.",
+      "operacao_normal": false,
+      "emoji": "⚪",
       "fonte": "API ARTESP"
     },
     {
@@ -123,9 +123,9 @@
       "linha_numero": 13,
       "linha_nome": "Linha 13-Jade",
       "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
+      "status": "Por motivo de greve os trens da Linha 13-Jade não estão operando.",
+      "operacao_normal": false,
+      "emoji": "⚪",
       "fonte": "API ARTESP"
     },
     {
@@ -133,7 +133,7 @@
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Operação Especial",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"

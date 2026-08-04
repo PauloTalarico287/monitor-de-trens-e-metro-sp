@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-08-04T16:00:11.030256-03:00",
+  "coletado_em": "2026-08-04T17:00:21.956425-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
+      "operadora": "CPTM",
+      "status": "Por motivo de greve os trens da Linha 13-Jade estão circulando com maiores intervalos entre as estações Engenheiro Goulart e Aeroporto Guarulhos e sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -119,16 +130,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "JADE",
-      "linha_numero": 13,
-      "linha_nome": "Linha 13-Jade",
-      "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 13-Jade não estão operando. O percurso está sendo feito por ônibus estacionados em frente às estações.",
-      "operacao_normal": false,
-      "emoji": "⚪",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "PRATA",
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
@@ -139,6 +140,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Guarulhos",
+      "linha_nome": "Linha 13-Jade",
+      "linha_cor": "JADE",
+      "operadora": "CPTM",
+      "status": "Por motivo de greve os trens da Linha 13-Jade estão circulando com maiores intervalos entre as estações Engenheiro Goulart e Aeroporto Guarulhos e sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

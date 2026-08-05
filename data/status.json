@@ -1,13 +1,58 @@
 {
-  "coletado_em": "2026-08-05T09:42:29.023735-03:00",
+  "coletado_em": "2026-08-05T09:49:28.702472-03:00",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 14,
+    "total_com_problema": 3,
+    "total_normal": 11,
     "total_ausente_api": 3,
-    "territorios_com_alerta": 0
+    "territorios_com_alerta": 2
   },
-  "problemas": [],
-  "alertas_territorios": [],
+  "problemas": [
+    {
+      "linha_cor": "VERMELHA",
+      "linha_numero": 3,
+      "linha_nome": "Linha 3-Vermelha",
+      "operadora": "Metro SP",
+      "status": "Devido a greve em outras Linhas, estamos com operação especial para minimizar impacto aos passageiros",
+      "emoji": "⚪",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "emoji": "⚪",
+      "fonte": "API central"
+    },
+    {
+      "linha_cor": "SAFIRA",
+      "linha_numero": 12,
+      "linha_nome": "Linha 12-Safira",
+      "operadora": "CPTM",
+      "status": "Por motivo de greve, os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "emoji": "⚪",
+      "fonte": "API central"
+    }
+  ],
+  "alertas_territorios": [
+    {
+      "territorio": "Suzano",
+      "linha_nome": "Linha 11-Coral",
+      "linha_cor": "CORAL",
+      "operadora": "CPTM",
+      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "emoji": "⚪"
+    },
+    {
+      "territorio": "Itaim Paulista",
+      "linha_nome": "Linha 12-Safira",
+      "linha_cor": "SAFIRA",
+      "operadora": "CPTM",
+      "status": "Por motivo de greve, os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "emoji": "⚪"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -25,15 +70,6 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "emoji": "🟢",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "VERMELHA",
-      "linha_numero": 3,
-      "linha_nome": "Linha 3-Vermelha",
-      "operadora": "Metro SP",
-      "status": "Devido a greve em outras Linhas, estamos com operação especial para minimizar impacto aos passageiros",
-      "emoji": "⚪",
       "fonte": "API central"
     },
     {
@@ -88,24 +124,6 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "emoji": "🟢",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
-      "emoji": "⚪",
-      "fonte": "API central"
-    },
-    {
-      "linha_cor": "SAFIRA",
-      "linha_numero": 12,
-      "linha_nome": "Linha 12-Safira",
-      "operadora": "CPTM",
-      "status": "Por motivo de greve, os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
-      "emoji": "⚪",
       "fonte": "API central"
     },
     {

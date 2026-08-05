@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-08-05T18:00:17.700049-03:00",
+  "coletado_em": "2026-08-05T19:00:15.566758-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 3,
-    "total_normal": 10,
-    "territorios_com_alerta": 3
+    "total_com_problema": 2,
+    "total_normal": 11,
+    "territorios_com_alerta": 2
   },
   "problemas": [
     {
@@ -12,7 +12,7 @@
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
       "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "status": "No momento os trens estão circulando com maior intervalo e maior tempo de parada a CPTM está trabalhando para a normalização. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações. Agradecemos a sua compreensão.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -22,17 +22,7 @@
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Por motivo de greve, os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "JADE",
-      "linha_numero": 13,
-      "linha_nome": "Linha 13-Jade",
-      "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 13-Jade estão circulando com maiores intervalos entre as estações Engenheiro Goulart e Aeroporto Guarulhos e sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações.",
+      "status": "No momento os trens estão circulando com maior intervalo e maior tempo de parada a CPTM está trabalhando para a normalização. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações. Agradecemos a sua compreensão.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -130,6 +120,16 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
+      "operadora": "CPTM",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "PRATA",
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
@@ -146,7 +146,7 @@
       "linha_nome": "Linha 11-Coral",
       "linha_cor": "CORAL",
       "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "status": "No momento os trens estão circulando com maior intervalo e maior tempo de parada a CPTM está trabalhando para a normalização. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações. Agradecemos a sua compreensão.",
       "emoji": "🟡"
     },
     {
@@ -154,15 +154,7 @@
       "linha_nome": "Linha 12-Safira",
       "linha_cor": "SAFIRA",
       "operadora": "CPTM",
-      "status": "Por motivo de greve, os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Guarulhos",
-      "linha_nome": "Linha 13-Jade",
-      "linha_cor": "JADE",
-      "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 13-Jade estão circulando com maiores intervalos entre as estações Engenheiro Goulart e Aeroporto Guarulhos e sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações.",
+      "status": "No momento os trens estão circulando com maior intervalo e maior tempo de parada a CPTM está trabalhando para a normalização. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações. Agradecemos a sua compreensão.",
       "emoji": "🟡"
     }
   ],

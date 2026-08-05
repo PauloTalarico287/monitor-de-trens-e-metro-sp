@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-05T08:00:16.590532-03:00",
+  "coletado_em": "2026-08-05T09:00:20.091200-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
@@ -124,7 +124,7 @@
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "status": "Por motivo de greve, os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"

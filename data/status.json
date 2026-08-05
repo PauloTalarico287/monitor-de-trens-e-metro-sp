@@ -1,23 +1,12 @@
 {
-  "coletado_em": "2026-08-04T23:00:13.043115-03:00",
+  "coletado_em": "2026-08-05T05:00:25.283748-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 1
+    "total_com_problema": 0,
+    "total_normal": 13,
+    "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "JADE",
-      "linha_numero": 13,
-      "linha_nome": "Linha 13-Jade",
-      "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 13-Jade estão circulando com maiores intervalos entre as estações Engenheiro Goulart e Aeroporto Guarulhos e sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    }
-  ],
+  "problemas": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -34,7 +23,7 @@
       "linha_numero": 2,
       "linha_nome": "Linha 2-Verde",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Operação Especial",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
@@ -44,7 +33,7 @@
       "linha_numero": 3,
       "linha_nome": "Linha 3-Vermelha",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Operação Especial",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
@@ -114,7 +103,7 @@
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
       "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases. O percurso entre as estações Guainases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "status": "Por motivo de greve os trens da Linha 11-Coral estão circulando entre as estações Palmeiras-Barra Funda e Guaianases. O percurso entre as estações Guaianases e Estudantes está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
@@ -124,9 +113,19 @@
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso para as demais estações está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
+      "status": "Por motivo de greve os trens da Linha 12-Safira estão circulando entre as estações Brás e Engenheiro Goulart. O percurso entre as estações Engenheiro Goulart e Calmon Viana está sendo atendido pelo sistema PAESE de ônibus em frente às estações.",
       "operacao_normal": true,
       "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
+      "operadora": "CPTM",
+      "status": "Por motivo de greve os trens da Linha 13-Jade não estão operando. O percurso está sendo feito por ônibus estacionados em frente às estações.",
+      "operacao_normal": false,
+      "emoji": "⚪",
       "fonte": "API ARTESP"
     },
     {
@@ -134,21 +133,12 @@
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Operação Especial",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [
-    {
-      "territorio": "Guarulhos",
-      "linha_nome": "Linha 13-Jade",
-      "linha_cor": "JADE",
-      "operadora": "CPTM",
-      "status": "Por motivo de greve os trens da Linha 13-Jade estão circulando com maiores intervalos entre as estações Engenheiro Goulart e Aeroporto Guarulhos e sendo atendido pelo sistema PAESE de reforço de ônibus em frente às estações.",
-      "emoji": "🟡"
-    }
-  ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

@@ -60,12 +60,12 @@ def territorios_afetados(linha_cor):
 
 PALAVRAS_PROBLEMA = [
     "reducida", "reduzida", "velocidade", "intervalo", "intervalos",
-    "via unica", "parcial", "interrompida", "paralisada", "encerrada",
+    "via unica", "parcial", "interrompida", "paralisada",
     "suspensa", "falha", "defeito", "manutencao", "programada", "obras",
-    "atividade programada", "permanente", "trens estao", "trens estao",
+    "atividade programada", "permanente", "trens estao",
     "problema", "ocorrencia", "atencao", "lentidao", "atraso", "impedimento",
+    "greve",  # ← adicionar
 ]
-
 def sem_acento(texto):
     """Remove acentos e retorna uppercase."""
     nfkd = unicodedata.normalize("NFD", texto.upper())

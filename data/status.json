@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-09T06:00:21.305933-03:00",
+  "coletado_em": "2026-08-09T07:00:14.256483-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 2,
@@ -22,7 +22,7 @@
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada entre as estações Santo Amaro e Morumbi, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
+      "status": "Devido à manutenção programada entre as estações Jurubatuba-Senac e Socorro, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -146,7 +146,7 @@
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada entre as estações Santo Amaro e Morumbi, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
+      "status": "Devido à manutenção programada entre as estações Jurubatuba-Senac e Socorro, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
       "emoji": "🟡"
     },
     {
@@ -154,7 +154,7 @@
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à manutenção programada entre as estações Santo Amaro e Morumbi, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
+      "status": "Devido à manutenção programada entre as estações Jurubatuba-Senac e Socorro, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
       "emoji": "🟡"
     }
   ],

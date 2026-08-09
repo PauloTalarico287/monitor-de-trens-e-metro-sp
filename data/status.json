@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-08-09T16:00:13.107498-03:00",
+  "coletado_em": "2026-08-09T18:00:14.326533-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 4,
-    "total_normal": 9,
-    "territorios_com_alerta": 4
+    "total_com_problema": 2,
+    "total_normal": 11,
+    "territorios_com_alerta": 2
   },
   "problemas": [
     {
@@ -18,31 +18,11 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
       "status": "Devido à manutenção programada entre as estações Jurubatuba-Senac e Socorro, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "PRATA",
-      "linha_numero": 15,
-      "linha_nome": "Linha 15-Prata",
-      "operadora": "Metro SP",
-      "status": "Velocidade Reduzida",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -100,6 +80,16 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
@@ -138,17 +128,19 @@
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "PRATA",
+      "linha_numero": 15,
+      "linha_nome": "Linha 15-Prata",
+      "operadora": "Metro SP",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
     }
   ],
   "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
-      "emoji": "🟡"
-    },
     {
       "territorio": "Osasco",
       "linha_nome": "Linha 9-Esmeralda",
@@ -163,14 +155,6 @@
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
       "status": "Devido à manutenção programada entre as estações Jurubatuba-Senac e Socorro, os trens da Linha 9 - Esmeralda estão circulando com maiores intervalos entre Osasco e Varginha.",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Sao Mateus",
-      "linha_nome": "Linha 15-Prata",
-      "linha_cor": "PRATA",
-      "operadora": "Metro SP",
-      "status": "Velocidade Reduzida",
       "emoji": "🟡"
     }
   ],

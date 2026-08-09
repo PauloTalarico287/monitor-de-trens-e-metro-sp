@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-08-08T22:00:12.011728-03:00",
+  "coletado_em": "2026-08-08T23:00:13.515011-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
@@ -12,7 +12,7 @@
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
       "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos  , os trens da Linha   11 - Coral   seguirão até a Estação   Luz  . Para continuar a viagem, faça a transferência para a Linha   10 - Turquesa   da CPTM.",
+      "status": "Devido a Problemas Técnicos / os trens da Linha 11 - Coral / seguirão até a Estação Luz // Para continuar a viagem / faça a transferência para a Linha 10 - Turquesa da CPTM. O serviço expresso aeroporto esta sendo realizado entre as estações Luz e Aeroporto de Guarulhos.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -146,7 +146,7 @@
       "linha_nome": "Linha 11-Coral",
       "linha_cor": "CORAL",
       "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos  , os trens da Linha   11 - Coral   seguirão até a Estação   Luz  . Para continuar a viagem, faça a transferência para a Linha   10 - Turquesa   da CPTM.",
+      "status": "Devido a Problemas Técnicos / os trens da Linha 11 - Coral / seguirão até a Estação Luz // Para continuar a viagem / faça a transferência para a Linha 10 - Turquesa da CPTM. O serviço expresso aeroporto esta sendo realizado entre as estações Luz e Aeroporto de Guarulhos.",
       "emoji": "🟡"
     }
   ],

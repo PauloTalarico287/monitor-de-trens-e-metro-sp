@@ -1,23 +1,12 @@
 {
-  "coletado_em": "2026-08-11T09:00:23.201448-03:00",
+  "coletado_em": "2026-08-11T10:00:14.193334-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 1
+    "total_com_problema": 0,
+    "total_normal": 13,
+    "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "SAFIRA",
-      "linha_numero": 12,
-      "linha_nome": "Linha 12-Safira",
-      "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos no Sistema de Energia  , os trens estão circulando com maior intervalo entre as Estações   Brás   e   Calmon Viana  . Como opção a CPTM está disponibilizando linha de ônibus especial entre as Estações   Comendador Ermelino   e   Tatuapé  .",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    }
-  ],
+  "problemas": [],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -120,6 +109,16 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "SAFIRA",
+      "linha_numero": 12,
+      "linha_nome": "Linha 12-Safira",
+      "operadora": "CPTM",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "JADE",
       "linha_numero": 13,
       "linha_nome": "Linha 13-Jade",
@@ -140,15 +139,6 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [
-    {
-      "territorio": "Itaim Paulista",
-      "linha_nome": "Linha 12-Safira",
-      "linha_cor": "SAFIRA",
-      "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos no Sistema de Energia  , os trens estão circulando com maior intervalo entre as Estações   Brás   e   Calmon Viana  . Como opção a CPTM está disponibilizando linha de ônibus especial entre as Estações   Comendador Ermelino   e   Tatuapé  .",
-      "emoji": "🟡"
-    }
-  ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

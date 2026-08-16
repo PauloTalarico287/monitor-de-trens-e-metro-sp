@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-08-16T05:00:20.154465-03:00",
+  "coletado_em": "2026-08-16T06:00:30.538948-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 0
+    "total_com_problema": 3,
+    "total_normal": 10,
+    "territorios_com_alerta": 3
   },
   "problemas": [
     {
@@ -13,6 +13,26 @@
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
       "status": "Para obras de modernização, das 4h à 0h, trens circulam em via única entre Botujuru e Campo Limpo Paulista, com embarque/desembarque na mesma plataforma. Transferência necessária em Francisco Morato.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -70,26 +90,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "TURQUESA",
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
@@ -140,6 +140,31 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9-Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

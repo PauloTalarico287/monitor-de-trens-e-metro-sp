@@ -1,12 +1,23 @@
 {
-  "coletado_em": "2026-08-21T13:00:19.415178-03:00",
+  "coletado_em": "2026-08-21T14:00:12.608498-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 13,
+    "total_com_problema": 1,
+    "total_normal": 12,
     "territorios_com_alerta": 0
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "RUBI",
+      "linha_numero": 7,
+      "linha_nome": "Linha 7-Rubi",
+      "operadora": "TIC Trens",
+      "status": "Devido à falha em equipamento de via na região de Vila Aurora, a linha operação com velocidade reduzida e maiores intervalos",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -53,16 +64,6 @@
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
       "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "RUBI",
-      "linha_numero": 7,
-      "linha_nome": "Linha 7-Rubi",
-      "operadora": "TIC Trens",
       "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",

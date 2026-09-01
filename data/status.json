@@ -1,18 +1,28 @@
 {
-  "coletado_em": "2026-09-01T10:00:16.557962-03:00",
+  "coletado_em": "2026-09-01T11:00:14.697508-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 12,
-    "territorios_com_alerta": 1
+    "total_com_problema": 2,
+    "total_normal": 11,
+    "territorios_com_alerta": 2
   },
   "problemas": [
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
     {
       "linha_cor": "SAFIRA",
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Brás   e    Calmon Viana  , devido a    Problemas Técnicos no Sistema de Energia  . Agradecemos a sua compreensão",
+      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Itaim Paulista   e    Calmon Viana  , devido a    Problemas Técnicos no Sistema de Energia  . Agradecemos a sua compreensão",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -80,16 +90,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
@@ -142,11 +142,19 @@
   ],
   "alertas_territorios": [
     {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "emoji": "🟡"
+    },
+    {
       "territorio": "Itaim Paulista",
       "linha_nome": "Linha 12-Safira",
       "linha_cor": "SAFIRA",
       "operadora": "CPTM",
-      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Brás   e    Calmon Viana  , devido a    Problemas Técnicos no Sistema de Energia  . Agradecemos a sua compreensão",
+      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Itaim Paulista   e    Calmon Viana  , devido a    Problemas Técnicos no Sistema de Energia  . Agradecemos a sua compreensão",
       "emoji": "🟡"
     }
   ],

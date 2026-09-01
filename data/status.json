@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-01T08:00:17.421071-03:00",
+  "coletado_em": "2026-09-01T10:00:16.557962-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
@@ -12,7 +12,7 @@
       "linha_numero": 12,
       "linha_nome": "Linha 12-Safira",
       "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos no Sistema de Energia  , os trens não estão circulando entre as Estações   Jardim Romano   e   Calmon Viana  .",
+      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Brás   e    Calmon Viana  , devido a    Problemas Técnicos no Sistema de Energia  . Agradecemos a sua compreensão",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -146,7 +146,7 @@
       "linha_nome": "Linha 12-Safira",
       "linha_cor": "SAFIRA",
       "operadora": "CPTM",
-      "status": "Devido a   Problemas Técnicos no Sistema de Energia  , os trens não estão circulando entre as Estações   Jardim Romano   e   Calmon Viana  .",
+      "status": "Estamos circulando com velocidade reduzida e maior tempo de parada entre as Estações    Brás   e    Calmon Viana  , devido a    Problemas Técnicos no Sistema de Energia  . Agradecemos a sua compreensão",
       "emoji": "🟡"
     }
   ],

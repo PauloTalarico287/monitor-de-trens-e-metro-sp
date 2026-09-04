@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-04T17:00:14.233287-03:00",
+  "coletado_em": "2026-09-04T18:00:18.578434-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
@@ -12,8 +12,8 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
-      "operacao_normal": true,
+      "status": "Devido à atividade de manutenção, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "operacao_normal": false,
       "emoji": "🟡",
       "fonte": "API ARTESP"
     }
@@ -66,7 +66,7 @@
       "linha_nome": "Linha 8-Diamante",
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "status": "Devido à atividade de manutenção, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
       "emoji": "🟡"
     }
   ],

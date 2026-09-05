@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-04T23:00:19.587144-03:00",
+  "coletado_em": "2026-09-05T06:38:21.401776-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
@@ -13,7 +13,7 @@
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
       "status": "Devido à atividade de manutenção, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
-      "operacao_normal": false,
+      "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
     }

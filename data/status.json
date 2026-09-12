@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-12T08:00:10.479632-03:00",
+  "coletado_em": "2026-09-12T09:00:17.849228-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 2,
@@ -22,7 +22,7 @@
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Devido à alagamento na região de Santo Amaro, os trens da linha 9-Esmeralda circulam com maiores intervalos no trecho entre as estações Santo Amaro e João Dias.",
+      "status": "Devido à pontos de alagamentos ocasionados por fortes chuvas na região de Santo Amaro, os trens da linha 9-Esmeralda circulam com maiores intervalos no trecho entre as estações Santo Amaro e João Dias.",
       "operacao_normal": false,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -76,7 +76,7 @@
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à alagamento na região de Santo Amaro, os trens da linha 9-Esmeralda circulam com maiores intervalos no trecho entre as estações Santo Amaro e João Dias.",
+      "status": "Devido à pontos de alagamentos ocasionados por fortes chuvas na região de Santo Amaro, os trens da linha 9-Esmeralda circulam com maiores intervalos no trecho entre as estações Santo Amaro e João Dias.",
       "emoji": "🟡"
     },
     {
@@ -84,7 +84,7 @@
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à alagamento na região de Santo Amaro, os trens da linha 9-Esmeralda circulam com maiores intervalos no trecho entre as estações Santo Amaro e João Dias.",
+      "status": "Devido à pontos de alagamentos ocasionados por fortes chuvas na região de Santo Amaro, os trens da linha 9-Esmeralda circulam com maiores intervalos no trecho entre as estações Santo Amaro e João Dias.",
       "emoji": "🟡"
     }
   ],

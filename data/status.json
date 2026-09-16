@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-09-15T23:00:15.746386-03:00",
+  "coletado_em": "2026-09-16T05:00:16.538457-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 5,
-    "territorios_com_alerta": 0
+    "total_com_problema": 3,
+    "total_normal": 3,
+    "territorios_com_alerta": 3
   },
   "problemas": [
     {
@@ -12,6 +12,26 @@
       "linha_numero": 6,
       "linha_nome": "Linha 6-Laranja",
       "operadora": "Linha Uni",
+      "status": "Operação Encerrada",
+      "operacao_normal": false,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Encerrada",
+      "operacao_normal": false,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
       "status": "Operação Encerrada",
       "operacao_normal": false,
       "emoji": "🟢",
@@ -48,28 +68,33 @@
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Encerrada",
+      "emoji": "🟢"
+    },
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Encerrada",
+      "emoji": "🟢"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Encerrada",
+      "emoji": "🟢"
+    }
+  ],
   "ausentes_api": []
 }

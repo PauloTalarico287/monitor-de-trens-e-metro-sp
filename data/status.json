@@ -1,20 +1,20 @@
 {
-  "coletado_em": "2026-09-21T15:00:15.385954-03:00",
+  "coletado_em": "2026-09-21T16:00:13.821820-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 1,
     "total_normal": 5,
-    "territorios_com_alerta": 2
+    "territorios_com_alerta": 0
   },
   "problemas": [
     {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada entre Presidente Altino e Osasco, os trens da Linha 9-Esmeralda estão circulando entre as estações Varginha e Presidente Altino. Passageiros que pretendem acessar estação Osasco, devem realizar a transferência para a Linha 8-Diamante.",
-      "operacao_normal": true,
-      "emoji": "🟡",
+      "linha_cor": "6",
+      "linha_numero": 6,
+      "linha_nome": "Linha 6-Laranja",
+      "operadora": "Linha Uni",
+      "status": "Operação Encerrada",
+      "operacao_normal": false,
+      "emoji": "🟢",
       "fonte": "API ARTESP"
     }
   ],
@@ -40,16 +40,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "6",
-      "linha_numero": 6,
-      "linha_nome": "Linha 6-Laranja",
-      "operadora": "Linha Uni",
-      "status": "Em funcionamento das 10h às 15h.",
-      "operacao_normal": false,
-      "emoji": "⚪",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "RUBI",
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
@@ -68,25 +58,18 @@
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
-    }
-  ],
-  "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada entre Presidente Altino e Osasco, os trens da Linha 9-Esmeralda estão circulando entre as estações Varginha e Presidente Altino. Passageiros que pretendem acessar estação Osasco, devem realizar a transferência para a Linha 8-Diamante.",
-      "emoji": "🟡"
     },
     {
-      "territorio": "Grajau",
-      "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada entre Presidente Altino e Osasco, os trens da Linha 9-Esmeralda estão circulando entre as estações Varginha e Presidente Altino. Passageiros que pretendem acessar estação Osasco, devem realizar a transferência para a Linha 8-Diamante.",
-      "emoji": "🟡"
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
     }
   ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

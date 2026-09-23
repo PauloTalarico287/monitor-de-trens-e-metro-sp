@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-09-23T05:00:21.412972-03:00",
+  "coletado_em": "2026-09-23T06:00:38.951365-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 5,
-    "territorios_com_alerta": 0
+    "total_com_problema": 2,
+    "total_normal": 4,
+    "territorios_com_alerta": 2
   },
   "problemas": [
     {
@@ -15,6 +15,16 @@
       "status": "Operação Encerrada",
       "operacao_normal": false,
       "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Devido ao atendimento de manutenção corretiva na região de Primavera-Interlagos, os trens da linha 9 Esmeralda estão circulando com maiores intervalos entre as estações Autódromo e Varginha.",
+      "operacao_normal": false,
+      "emoji": "🟡",
       "fonte": "API ARTESP"
     }
   ],
@@ -58,18 +68,25 @@
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido ao atendimento de manutenção corretiva na região de Primavera-Interlagos, os trens da linha 9 Esmeralda estão circulando com maiores intervalos entre as estações Autódromo e Varginha.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Grajau",
+      "linha_nome": "Linha 9-Esmeralda",
+      "linha_cor": "ESMERALDA",
+      "operadora": "ViaMobilidade",
+      "status": "Devido ao atendimento de manutenção corretiva na região de Primavera-Interlagos, os trens da linha 9 Esmeralda estão circulando com maiores intervalos entre as estações Autódromo e Varginha.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-09-24T11:00:14.917162-03:00",
+  "coletado_em": "2026-09-24T12:00:12.113270-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 5,
-    "territorios_com_alerta": 2
+    "total_com_problema": 2,
+    "total_normal": 4,
+    "territorios_com_alerta": 3
   },
   "problemas": [
     {
@@ -14,6 +14,16 @@
       "operadora": "ViaMobilidade",
       "status": "A Linha 5-Lilás opera, por questões de segurança, com maiores intervalos e velocidade reduzida de 10km/h no trecho entre as estações Santa Cruz e Chácara Klabin, devido a ocorrência em equipamento de via.",
       "operacao_normal": false,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "\r\nDevido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
+      "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
     }
@@ -50,16 +60,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
@@ -85,6 +85,14 @@
       "linha_cor": "LILAS",
       "operadora": "ViaMobilidade",
       "status": "A Linha 5-Lilás opera, por questões de segurança, com maiores intervalos e velocidade reduzida de 10km/h no trecho entre as estações Santa Cruz e Chácara Klabin, devido a ocorrência em equipamento de via.",
+      "emoji": "🟡"
+    },
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "\r\nDevido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
       "emoji": "🟡"
     }
   ],

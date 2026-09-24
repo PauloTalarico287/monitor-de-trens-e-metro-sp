@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-24T07:00:13.263793-03:00",
+  "coletado_em": "2026-09-24T08:00:13.175098-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 2,
@@ -12,7 +12,7 @@
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
       "operadora": "ViaMobilidade",
-      "status": "A Linha 5-Lilás opera com maiores intervalos nesta quinta-feira (24), devido a falhas em equipamentos de via. Na região de Santa Cruz, os trens circulam com restrição de 10 km/h entre Santa Cruz e Chácara Klabin, aumentando o tempo de viagem. Em Capão Redondo, uma falha na via faz com que embarque e desembarque ocorram pela mesma plataforma. Equipes de manutenção atuam nos dois locais para normalizar a operação com segurança.",
+      "status": "A Linha 5-Lilás opera, por questões de segurança, com maiores intervalos e velocidade reduzida de 10km/h no trecho entre as estações Santa Cruz e Chácara Klabin, devido a ocorrência em equipamento de via.",
       "operacao_normal": false,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -76,7 +76,7 @@
       "linha_nome": "Linha 5-Lilas",
       "linha_cor": "LILAS",
       "operadora": "ViaMobilidade",
-      "status": "A Linha 5-Lilás opera com maiores intervalos nesta quinta-feira (24), devido a falhas em equipamentos de via. Na região de Santa Cruz, os trens circulam com restrição de 10 km/h entre Santa Cruz e Chácara Klabin, aumentando o tempo de viagem. Em Capão Redondo, uma falha na via faz com que embarque e desembarque ocorram pela mesma plataforma. Equipes de manutenção atuam nos dois locais para normalizar a operação com segurança.",
+      "status": "A Linha 5-Lilás opera, por questões de segurança, com maiores intervalos e velocidade reduzida de 10km/h no trecho entre as estações Santa Cruz e Chácara Klabin, devido a ocorrência em equipamento de via.",
       "emoji": "🟡"
     },
     {
@@ -84,7 +84,7 @@
       "linha_nome": "Linha 5-Lilas",
       "linha_cor": "LILAS",
       "operadora": "ViaMobilidade",
-      "status": "A Linha 5-Lilás opera com maiores intervalos nesta quinta-feira (24), devido a falhas em equipamentos de via. Na região de Santa Cruz, os trens circulam com restrição de 10 km/h entre Santa Cruz e Chácara Klabin, aumentando o tempo de viagem. Em Capão Redondo, uma falha na via faz com que embarque e desembarque ocorram pela mesma plataforma. Equipes de manutenção atuam nos dois locais para normalizar a operação com segurança.",
+      "status": "A Linha 5-Lilás opera, por questões de segurança, com maiores intervalos e velocidade reduzida de 10km/h no trecho entre as estações Santa Cruz e Chácara Klabin, devido a ocorrência em equipamento de via.",
       "emoji": "🟡"
     }
   ],

@@ -1,12 +1,22 @@
 {
-  "coletado_em": "2026-09-24T20:00:11.717354-03:00",
+  "coletado_em": "2026-09-24T21:00:15.862198-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 4,
-    "territorios_com_alerta": 2
+    "total_com_problema": 3,
+    "total_normal": 3,
+    "territorios_com_alerta": 3
   },
   "problemas": [
+    {
+      "linha_cor": "AMARELA",
+      "linha_numero": 4,
+      "linha_nome": "Linha 4-Amarela",
+      "operadora": "Motiva",
+      "status": "Devido a uma falha no Trem na estação Pinheiros, estamos circulando com velocidade reduzida e maior tempo de parada.",
+      "operacao_normal": true,
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
     {
       "linha_cor": "LILAS",
       "linha_numero": 5,
@@ -29,16 +39,6 @@
     }
   ],
   "normais": [
-    {
-      "linha_cor": "AMARELA",
-      "linha_numero": 4,
-      "linha_nome": "Linha 4-Amarela",
-      "operadora": "Motiva",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
     {
       "linha_cor": "RUBI",
       "linha_numero": 7,
@@ -71,6 +71,14 @@
     }
   ],
   "alertas_territorios": [
+    {
+      "territorio": "Paraisopolis",
+      "linha_nome": "Linha 4-Amarela",
+      "linha_cor": "AMARELA",
+      "operadora": "Motiva",
+      "status": "Devido a uma falha no Trem na estação Pinheiros, estamos circulando com velocidade reduzida e maior tempo de parada.",
+      "emoji": "🟡"
+    },
     {
       "territorio": "Capao Redondo",
       "linha_nome": "Linha 5-Lilas",

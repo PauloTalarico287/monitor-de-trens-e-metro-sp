@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-09-26T08:00:12.308952-03:00",
+  "coletado_em": "2026-09-26T09:00:16.193398-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 5,
-    "territorios_com_alerta": 0
+    "total_com_problema": 2,
+    "total_normal": 4,
+    "territorios_com_alerta": 1
   },
   "problemas": [
     {
@@ -15,6 +15,16 @@
       "status": "Operação Encerrada",
       "operacao_normal": false,
       "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barra Funda e Júlio Prestes.",
+      "operacao_normal": true,
+      "emoji": "🟡",
       "fonte": "API ARTESP"
     }
   ],
@@ -50,16 +60,6 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
@@ -70,6 +70,15 @@
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barra Funda e Júlio Prestes.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

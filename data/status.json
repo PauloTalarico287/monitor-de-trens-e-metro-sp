@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-09-27T09:00:15.649080-03:00",
+  "coletado_em": "2026-09-27T10:00:10.465513-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 4,
@@ -12,7 +12,7 @@
       "linha_numero": 5,
       "linha_nome": "Linha 5-Lilas",
       "operadora": "ViaMobilidade",
-      "status": "Devido a ocorrência no sistema elétrico entre as estações Santo Amaro e Largo Treze estamos operando em via única e entre as estacoes Capão Redondo e Santo Amaro carrossel entre as estações Santo Amaro e Chácara Klabin.",
+      "status": "Devido à ocorrência de alimentação elétrica entre as estações Santo Amaro e Largo Treze, estamos operando em via única no trecho entre Capão Redondo e Santo Amaro e em sistema de carrossel entre Santo Amaro e Chácara Klabin.\r\nÔnibus do sistema PAESE foram acionados para dar suporte à demanda entre Capão Redondo e Santo Amaro.\r\n ",
       "operacao_normal": false,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -76,7 +76,7 @@
       "linha_nome": "Linha 5-Lilas",
       "linha_cor": "LILAS",
       "operadora": "ViaMobilidade",
-      "status": "Devido a ocorrência no sistema elétrico entre as estações Santo Amaro e Largo Treze estamos operando em via única e entre as estacoes Capão Redondo e Santo Amaro carrossel entre as estações Santo Amaro e Chácara Klabin.",
+      "status": "Devido à ocorrência de alimentação elétrica entre as estações Santo Amaro e Largo Treze, estamos operando em via única no trecho entre Capão Redondo e Santo Amaro e em sistema de carrossel entre Santo Amaro e Chácara Klabin.\r\nÔnibus do sistema PAESE foram acionados para dar suporte à demanda entre Capão Redondo e Santo Amaro.\r\n ",
       "emoji": "🟡"
     },
     {
@@ -84,7 +84,7 @@
       "linha_nome": "Linha 5-Lilas",
       "linha_cor": "LILAS",
       "operadora": "ViaMobilidade",
-      "status": "Devido a ocorrência no sistema elétrico entre as estações Santo Amaro e Largo Treze estamos operando em via única e entre as estacoes Capão Redondo e Santo Amaro carrossel entre as estações Santo Amaro e Chácara Klabin.",
+      "status": "Devido à ocorrência de alimentação elétrica entre as estações Santo Amaro e Largo Treze, estamos operando em via única no trecho entre Capão Redondo e Santo Amaro e em sistema de carrossel entre Santo Amaro e Chácara Klabin.\r\nÔnibus do sistema PAESE foram acionados para dar suporte à demanda entre Capão Redondo e Santo Amaro.\r\n ",
       "emoji": "🟡"
     },
     {

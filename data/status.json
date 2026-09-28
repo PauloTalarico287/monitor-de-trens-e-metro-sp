@@ -1,22 +1,12 @@
 {
-  "coletado_em": "2026-09-27T23:00:12.933059-03:00",
+  "coletado_em": "2026-09-28T05:00:23.890050-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 4,
-    "total_normal": 2,
-    "territorios_com_alerta": 5
+    "total_com_problema": 1,
+    "total_normal": 5,
+    "territorios_com_alerta": 0
   },
   "problemas": [
-    {
-      "linha_cor": "LILAS",
-      "linha_numero": 5,
-      "linha_nome": "Linha 5-Lilas",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à ocorrência de alimentação elétrica entre as estações Santo Amaro e Largo Treze, estamos operando em via única no trecho entre Capão Redondo e Santo Amaro e em sistema de carrossel entre Santo Amaro e Chácara Klabin.\r\nÔnibus do sistema PAESE foram acionados para dar suporte à demanda entre Capão Redondo e Santo Amaro.\r\n ",
-      "operacao_normal": false,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
     {
       "linha_cor": "6",
       "linha_numero": 6,
@@ -25,26 +15,6 @@
       "status": "Operação Encerrada",
       "operacao_normal": false,
       "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Osasco e Varginha.",
-      "operacao_normal": true,
-      "emoji": "🟡",
       "fonte": "API ARTESP"
     }
   ],
@@ -60,57 +30,46 @@
       "fonte": "API ARTESP"
     },
     {
+      "linha_cor": "LILAS",
+      "linha_numero": 5,
+      "linha_nome": "Linha 5-Lilas",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
       "linha_cor": "RUBI",
       "linha_numero": 7,
       "linha_nome": "Linha 7-Rubi",
       "operadora": "TIC Trens",
-      "status": "Para intervenções de infraestrutura para a modernização da linha, os trens circulam em via singela entre Botujuru e Campo Limpo Paulista. A transferência é necessária em Francisco Morato.",
+      "status": "Linha opera normalmente em toda sua extensão.",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
     }
   ],
-  "alertas_territorios": [
-    {
-      "territorio": "Capao Redondo",
-      "linha_nome": "Linha 5-Lilas",
-      "linha_cor": "LILAS",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à ocorrência de alimentação elétrica entre as estações Santo Amaro e Largo Treze, estamos operando em via única no trecho entre Capão Redondo e Santo Amaro e em sistema de carrossel entre Santo Amaro e Chácara Klabin.\r\nÔnibus do sistema PAESE foram acionados para dar suporte à demanda entre Capão Redondo e Santo Amaro.\r\n ",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Paraisopolis",
-      "linha_nome": "Linha 5-Lilas",
-      "linha_cor": "LILAS",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à ocorrência de alimentação elétrica entre as estações Santo Amaro e Largo Treze, estamos operando em via única no trecho entre Capão Redondo e Santo Amaro e em sistema de carrossel entre Santo Amaro e Chácara Klabin.\r\nÔnibus do sistema PAESE foram acionados para dar suporte à demanda entre Capão Redondo e Santo Amaro.\r\n ",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Júlio Prestes e Itapevi.",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Osasco e Varginha.",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Grajau",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Osasco e Varginha.",
-      "emoji": "🟡"
-    }
-  ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

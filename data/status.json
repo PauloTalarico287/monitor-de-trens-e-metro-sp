@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-10-04T06:00:22.000353-03:00",
+  "coletado_em": "2026-10-04T07:00:14.831540-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 4,
-    "territorios_com_alerta": 2
+    "total_com_problema": 1,
+    "total_normal": 5,
+    "territorios_com_alerta": 0
   },
   "problemas": [
     {
@@ -15,16 +15,6 @@
       "status": "Operação Encerrada",
       "operacao_normal": false,
       "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "ESMERALDA",
-      "linha_numero": 9,
-      "linha_nome": "Linha 9-Esmeralda",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção, os trens da linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Varginha.",
-      "operacao_normal": true,
-      "emoji": "🟡",
       "fonte": "API ARTESP"
     }
   ],
@@ -68,25 +58,18 @@
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
-    }
-  ],
-  "alertas_territorios": [
-    {
-      "territorio": "Osasco",
-      "linha_nome": "Linha 9-Esmeralda",
-      "linha_cor": "ESMERALDA",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção, os trens da linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Varginha.",
-      "emoji": "🟡"
     },
     {
-      "territorio": "Grajau",
-      "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
+      "linha_numero": 9,
+      "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção, os trens da linha 9-Esmeralda estão circulando com maiores intervalos entre as estações Jurubatuba e Varginha.",
-      "emoji": "🟡"
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
     }
   ],
+  "alertas_territorios": [],
   "ausentes_api": []
 }

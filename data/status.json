@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-09T19:00:16.603706-03:00",
+  "coletado_em": "2026-10-09T20:00:11.305324-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
     "total_com_problema": 2,
@@ -22,7 +22,7 @@
       "linha_numero": 8,
       "linha_nome": "Linha 8-Diamante",
       "operadora": "ViaMobilidade",
-      "status": "Devido a uma falha no sistema de energia na estação de Barueri, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Santa Teresinha e Barueri. Ônibus da operação PAESE acionados para atendimento ao público afetado. ",
+      "status": "Devido a uma falha no sistema de energia na estação de Barueri, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Antônio João e Barueri.",
       "operacao_normal": false,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -76,7 +76,7 @@
       "linha_nome": "Linha 8-Diamante",
       "linha_cor": "DIAMANTE",
       "operadora": "ViaMobilidade",
-      "status": "Devido a uma falha no sistema de energia na estação de Barueri, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Santa Teresinha e Barueri. Ônibus da operação PAESE acionados para atendimento ao público afetado. ",
+      "status": "Devido a uma falha no sistema de energia na estação de Barueri, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Antônio João e Barueri.",
       "emoji": "🟡"
     }
   ],

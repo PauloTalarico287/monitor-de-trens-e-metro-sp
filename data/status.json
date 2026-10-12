@@ -1,10 +1,10 @@
 {
-  "coletado_em": "2026-10-11T23:00:12.759896-03:00",
+  "coletado_em": "2026-10-12T05:00:19.572128-03:00",
   "fonte": "API ARTESP + ViaMobilidade 8e9",
   "resumo": {
-    "total_com_problema": 3,
-    "total_normal": 3,
-    "territorios_com_alerta": 3
+    "total_com_problema": 2,
+    "total_normal": 4,
+    "territorios_com_alerta": 2
   },
   "problemas": [
     {
@@ -18,21 +18,11 @@
       "fonte": "API ARTESP"
     },
     {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
-      "operacao_normal": true,
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
-    {
       "linha_cor": "ESMERALDA",
       "linha_numero": 9,
       "linha_nome": "Linha 9-Esmeralda",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada entre Presidente Altino e Osasco, os trens da Linha 9-Esmeralda estão circulando entre as estações Varginha e Presidente Altino. Passageiros que pretendem acessar estação Osasco, devem realizar a transferência para a Linha 8-Diamante.",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9 - Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha.",
       "operacao_normal": true,
       "emoji": "🟡",
       "fonte": "API ARTESP"
@@ -68,23 +58,25 @@
       "operacao_normal": true,
       "emoji": "🟢",
       "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
     }
   ],
   "alertas_territorios": [
     {
       "territorio": "Osasco",
-      "linha_nome": "Linha 8-Diamante",
-      "linha_cor": "DIAMANTE",
-      "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada, os trens da Linha 8-Diamante circulam com maiores intervalos entre as estações Barueri e Itapevi.",
-      "emoji": "🟡"
-    },
-    {
-      "territorio": "Osasco",
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada entre Presidente Altino e Osasco, os trens da Linha 9-Esmeralda estão circulando entre as estações Varginha e Presidente Altino. Passageiros que pretendem acessar estação Osasco, devem realizar a transferência para a Linha 8-Diamante.",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9 - Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha.",
       "emoji": "🟡"
     },
     {
@@ -92,7 +84,7 @@
       "linha_nome": "Linha 9-Esmeralda",
       "linha_cor": "ESMERALDA",
       "operadora": "ViaMobilidade",
-      "status": "Devido à atividade de manutenção programada entre Presidente Altino e Osasco, os trens da Linha 9-Esmeralda estão circulando entre as estações Varginha e Presidente Altino. Passageiros que pretendem acessar estação Osasco, devem realizar a transferência para a Linha 8-Diamante.",
+      "status": "Devido à atividade de manutenção programada, os trens da Linha 9 - Esmeralda circulam com maiores intervalos entre as estações Osasco e Varginha.",
       "emoji": "🟡"
     }
   ],

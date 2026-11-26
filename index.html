@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <title>Mural dos trilhos em SP</title>
+  <title>Status do Transporte — SP</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #f8f8f6;
       color: #1a1a1a;
       font-size: 14px;
@@ -122,7 +121,7 @@
 <div class="container">
   <div class="header">
     <div>
-      <h1 style="font-family: 'Space Grotesk', sans-serif; font-weight: 600;">Mural dos Trilhos em SP</h1>
+      <h1>Status do transporte — SP</h1>
       <p class="atualizacao" id="atualizacao">carregando...</p>
     </div>
     <div class="controles">
@@ -145,7 +144,7 @@
 
   <div class="banner" id="banner"></div>
   <div class="grid" id="grid"></div>
-  <p class="rodape">Fonte: API ARTESP · atualizado automaticamente a cada 1 hora</p>
+  <p class="rodape">Fonte: API ARTESP · atualizado automaticamente a cada 30 min</p>
 </div>
 
 <!-- Modal -->
@@ -175,7 +174,7 @@ const CORES = {
   AMARELA:"#FFC200", LILAS:"#9B2EA3", RUBI:"#CE0E2D",
   DIAMANTE:"#97999B", ESMERALDA:"#00A859", TURQUESA:"#007F8C",
   CORAL:"#F26522", SAFIRA:"#003F8A", JADE:"#00A651",
-  PRATA:"#9E9E9E", OURO:"#F5A800",
+  PRATA:"#9E9E9E", OURO:"#F5A800", LARANJA:"#E8710A",
 };
 
 const TERRITORIOS = {
@@ -183,7 +182,7 @@ const TERRITORIOS = {
   Osasco:["DIAMANTE","ESMERALDA"], Guarulhos:["JADE"],
   "Capao Redondo":["LILAS"], "Itaim Paulista":["SAFIRA"],
   Grajau:["ESMERALDA"], "Sao Mateus":["PRATA"],
-  Jacana:["AZUL"], Paraisopolis:["AMARELA", "LILAS"],
+  Jacana:["AZUL"], Paraisopolis:["AMARELA"],
 };
 
 const JSON_URL = "https://raw.githubusercontent.com/PauloTalarico287/monitor-de-trens-e-metro-sp/main/data/status.json";
@@ -302,6 +301,14 @@ async function carregar() {
 
     if (data.coletado_em) {
       const d = new Date(data.coletado_em);
+      const horas = (Date.now() - d.getTime()) / 3600000;
+      if (horas > 3) {
+        const aviso = document.createElement("div");
+        aviso.className = "banner vermelho";
+        aviso.style.display = "block";
+        aviso.innerHTML = "<strong>Atenção:</strong> os dados abaixo estão desatualizados (última coleta há " + Math.floor(horas) + " horas). Consulte o site da operadora para o status atual.";
+        document.querySelector(".container").insertBefore(aviso, document.getElementById("banner"));
+      }
       document.getElementById("atualizacao").textContent =
         "Atualizado em " + d.toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",
           day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});

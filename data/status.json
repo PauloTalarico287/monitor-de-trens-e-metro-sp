@@ -1,6 +1,6 @@
 {
-  "coletado_em": "2026-11-25T21:44:19.226505-03:00",
-  "fonte": "API ARTESP + app da CPTM",
+  "coletado_em": "2026-11-25T21:48:31.723027-03:00",
+  "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
     "total_com_problema": 0,
     "total_normal": 14,
@@ -15,7 +15,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-25T21:44:07",
+      "verificado_em": "2026-11-25T21:48:21",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -26,7 +26,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-25T21:44:07",
+      "verificado_em": "2026-11-25T21:48:21",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -37,7 +37,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-25T21:44:07",
+      "verificado_em": "2026-11-25T21:48:21",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -48,7 +48,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-25T21:40:22.298788-03:00",
+      "verificado_em": "2026-11-25T21:45:22.383753-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -59,7 +59,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-25T21:40:22.334536-03:00",
+      "verificado_em": "2026-11-25T21:45:22.408706-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -70,7 +70,7 @@
       "operadora": "Linha Uni",
       "status": "Operação Encerrada",
       "operacao_normal": false,
-      "verificado_em": "2026-11-25T21:40:22.204251-03:00",
+      "verificado_em": "2026-11-25T21:45:22.278964-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -81,7 +81,7 @@
       "operadora": "TIC Trens",
       "status": "Linha opera normalmente em toda sua extensão.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-25T21:40:22.212176-03:00",
+      "verificado_em": "2026-11-25T21:45:22.300359-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -92,7 +92,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-25T21:40:22.368221-03:00",
+      "verificado_em": "2026-11-25T21:45:22.469593-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -103,7 +103,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-25T21:40:22.389825-03:00",
+      "verificado_em": "2026-11-25T21:45:22.518177-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -114,7 +114,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-25T21:44:05",
+      "verificado_em": "2026-11-25T21:48:04",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -125,7 +125,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-25T21:44:05",
+      "verificado_em": "2026-11-25T21:48:04",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -136,7 +136,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-25T21:44:05",
+      "verificado_em": "2026-11-25T21:48:04",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -147,7 +147,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-25T21:40:22.246568-03:00",
+      "verificado_em": "2026-11-25T21:45:22.357413-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -156,7 +156,7 @@
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
       "operadora": "Metro SP",
-      "status": "Sem retorno da ARTESP nesta coleta",
+      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
       "operacao_normal": null,
       "emoji": "⚪",
       "fonte": "sem retorno da API"

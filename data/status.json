@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-26T09:00:23.737259-03:00",
+  "coletado_em": "2026-11-26T10:00:21.621766-03:00",
   "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
     "total_com_problema": 0,
@@ -15,7 +15,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-26T09:00:04",
+      "verificado_em": "2026-11-26T10:00:17",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -26,7 +26,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-26T09:00:04",
+      "verificado_em": "2026-11-26T10:00:17",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -37,7 +37,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-26T09:00:04",
+      "verificado_em": "2026-11-26T10:00:17",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -48,7 +48,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-26T08:58:01.019390-03:00",
+      "verificado_em": "2026-11-26T09:58:00.768572-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -59,7 +59,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-26T08:58:01.032899-03:00",
+      "verificado_em": "2026-11-26T09:58:00.780952-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -70,7 +70,7 @@
       "operadora": "Linha Uni",
       "status": "Operação Encerrada",
       "operacao_normal": false,
-      "verificado_em": "2026-11-26T08:58:00.963412-03:00",
+      "verificado_em": "2026-11-26T09:58:00.741345-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -81,7 +81,7 @@
       "operadora": "TIC Trens",
       "status": "Linha opera normalmente em toda sua extensão.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-26T08:58:00.980605-03:00",
+      "verificado_em": "2026-11-26T09:58:00.749601-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -92,7 +92,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-26T08:58:01.060211-03:00",
+      "verificado_em": "2026-11-26T09:58:00.790770-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -103,7 +103,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-26T08:58:01.083336-03:00",
+      "verificado_em": "2026-11-26T09:58:00.800070-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -114,7 +114,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-26T09:00:21",
+      "verificado_em": "2026-11-26T10:00:23",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -125,7 +125,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-26T09:00:00",
+      "verificado_em": "2026-11-26T10:00:00",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -136,7 +136,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-26T09:00:00",
+      "verificado_em": "2026-11-26T10:00:00",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -147,7 +147,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-26T08:58:01.000498-03:00",
+      "verificado_em": "2026-11-26T09:58:00.758646-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -158,7 +158,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-26T08:59:57",
+      "verificado_em": "2026-11-26T10:00:17",
       "emoji": "🟢",
       "fonte": "Painel TIC Trens"
     }

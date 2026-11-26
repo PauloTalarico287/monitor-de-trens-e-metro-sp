@@ -1,24 +1,43 @@
 {
-  "coletado_em": "2026-10-24T23:00:11.095947-03:00",
-  "fonte": "API ARTESP + ViaMobilidade 8e9",
+  "coletado_em": "2026-11-25T21:34:29.996342-03:00",
+  "fonte": "API ARTESP",
   "resumo": {
-    "total_com_problema": 1,
-    "total_normal": 5,
+    "total_com_problema": 0,
+    "total_normal": 14,
     "territorios_com_alerta": 0
   },
-  "problemas": [
-    {
-      "linha_cor": "6",
-      "linha_numero": 6,
-      "linha_nome": "Linha 6-Laranja",
-      "operadora": "Linha Uni",
-      "status": "Operação Encerrada",
-      "operacao_normal": false,
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    }
-  ],
+  "problemas": [],
   "normais": [
+    {
+      "linha_cor": "AZUL",
+      "linha_numero": 1,
+      "linha_nome": "Linha 1-Azul",
+      "operadora": "Metro SP",
+      "status": "Sem retorno da ARTESP nesta coleta",
+      "operacao_normal": null,
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
+    },
+    {
+      "linha_cor": "VERDE",
+      "linha_numero": 2,
+      "linha_nome": "Linha 2-Verde",
+      "operadora": "Metro SP",
+      "status": "Sem retorno da ARTESP nesta coleta",
+      "operacao_normal": null,
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
+    },
+    {
+      "linha_cor": "VERMELHA",
+      "linha_numero": 3,
+      "linha_nome": "Linha 3-Vermelha",
+      "operadora": "Metro SP",
+      "status": "Sem retorno da ARTESP nesta coleta",
+      "operacao_normal": null,
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
+    },
     {
       "linha_cor": "AMARELA",
       "linha_numero": 4,
@@ -26,6 +45,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
+      "verificado_em": "2026-11-25T21:30:21.819289-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -36,6 +56,18 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
+      "verificado_em": "2026-11-25T21:30:21.845762-03:00",
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "LARANJA",
+      "linha_numero": 6,
+      "linha_nome": "Linha 6-Laranja",
+      "operadora": "Linha Uni",
+      "status": "Operação Encerrada",
+      "operacao_normal": false,
+      "verificado_em": "2026-11-25T21:30:21.708570-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -46,6 +78,7 @@
       "operadora": "TIC Trens",
       "status": "Linha opera normalmente em toda sua extensão.",
       "operacao_normal": true,
+      "verificado_em": "2026-11-25T21:30:21.720238-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -56,6 +89,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
+      "verificado_em": "2026-11-25T21:30:21.893720-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -66,8 +100,60 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
+      "verificado_em": "2026-11-25T21:30:21.936002-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "TURQUESA",
+      "linha_numero": 10,
+      "linha_nome": "Linha 10-Turquesa",
+      "operadora": "CPTM",
+      "status": "Sem retorno da ARTESP nesta coleta",
+      "operacao_normal": null,
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
+    },
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Sem retorno da ARTESP nesta coleta",
+      "operacao_normal": null,
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
+    },
+    {
+      "linha_cor": "SAFIRA",
+      "linha_numero": 12,
+      "linha_nome": "Linha 12-Safira",
+      "operadora": "CPTM",
+      "status": "Sem retorno da ARTESP nesta coleta",
+      "operacao_normal": null,
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
+    },
+    {
+      "linha_cor": "JADE",
+      "linha_numero": 13,
+      "linha_nome": "Linha 13-Jade",
+      "operadora": "CPTM",
+      "status": "Operação Normal",
+      "operacao_normal": true,
+      "verificado_em": "2026-11-25T21:30:21.760465-03:00",
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "PRATA",
+      "linha_numero": 15,
+      "linha_nome": "Linha 15-Prata",
+      "operadora": "Metro SP",
+      "status": "Sem retorno da ARTESP nesta coleta",
+      "operacao_normal": null,
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
     }
   ],
   "alertas_territorios": [],

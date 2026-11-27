@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-27T12:00:18.611107-03:00",
+  "coletado_em": "2026-11-27T13:00:16.916797-03:00",
   "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
     "total_com_problema": 2,
@@ -14,7 +14,7 @@
       "operadora": "Linha Uni",
       "status": "Em funcionamento das 10h às 15h.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.832372-03:00",
+      "verificado_em": "2026-11-27T12:57:10.685583-03:00",
       "emoji": "🟡",
       "fonte": "API ARTESP"
     },
@@ -25,7 +25,7 @@
       "operadora": "ViaMobilidade",
       "status": "Devido à atividade programada os trens da linha 8-Diamante estão circulando com maiores intervalos entre as estações Palmeiras-Barra Funda e Júlio Prestes.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.884125-03:00",
+      "verificado_em": "2026-11-27T12:57:10.752520-03:00",
       "emoji": "🟡",
       "fonte": "API ARTESP"
     }
@@ -38,7 +38,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T12:00:01",
+      "verificado_em": "2026-11-27T12:59:52",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -49,7 +49,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T12:00:01",
+      "verificado_em": "2026-11-27T12:59:52",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -60,7 +60,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T12:00:01",
+      "verificado_em": "2026-11-27T12:59:52",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -71,7 +71,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.865878-03:00",
+      "verificado_em": "2026-11-27T12:57:10.731508-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -82,7 +82,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.874274-03:00",
+      "verificado_em": "2026-11-27T12:57:10.741723-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -104,7 +104,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.895208-03:00",
+      "verificado_em": "2026-11-27T12:57:10.765182-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -115,7 +115,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T12:00:06",
+      "verificado_em": "2026-11-27T13:00:06",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -126,7 +126,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.840007-03:00",
+      "verificado_em": "2026-11-27T12:57:10.694496-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -137,7 +137,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.849933-03:00",
+      "verificado_em": "2026-11-27T12:57:10.704127-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -148,7 +148,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T11:53:30.858329-03:00",
+      "verificado_em": "2026-11-27T12:57:10.714229-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -157,11 +157,10 @@
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T12:00:01",
-      "emoji": "🟢",
-      "fonte": "Painel TIC Trens"
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
     }
   ],
   "alertas_territorios": [

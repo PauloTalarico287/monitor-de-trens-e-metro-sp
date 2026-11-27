@@ -1,12 +1,35 @@
 {
-  "coletado_em": "2026-11-27T10:00:25.388127-03:00",
+  "coletado_em": "2026-11-27T11:00:25.112796-03:00",
   "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 14,
-    "territorios_com_alerta": 0
+    "total_com_problema": 2,
+    "total_normal": 12,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "LARANJA",
+      "linha_numero": 6,
+      "linha_nome": "Linha 6-Laranja",
+      "operadora": "Linha Uni",
+      "status": "Em funcionamento das 10h às 15h.",
+      "operacao_normal": true,
+      "verificado_em": "2026-11-27T10:53:00.723966-03:00",
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "DIAMANTE",
+      "linha_numero": 8,
+      "linha_nome": "Linha 8-Diamante",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade programada os trens da linha 8-Diamante estão circulando com maiores intervalos entre as estações Palmeiras-Barra Funda e Júlio Prestes.",
+      "operacao_normal": true,
+      "verificado_em": "2026-11-27T10:53:00.792610-03:00",
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -15,7 +38,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T10:00:31",
+      "verificado_em": "2026-11-27T11:00:19",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -26,7 +49,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T10:00:31",
+      "verificado_em": "2026-11-27T11:00:19",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -37,7 +60,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T10:00:31",
+      "verificado_em": "2026-11-27T11:00:19",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -48,7 +71,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.412716-03:00",
+      "verificado_em": "2026-11-27T10:53:00.768486-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -59,18 +82,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.518210-03:00",
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "LARANJA",
-      "linha_numero": 6,
-      "linha_nome": "Linha 6-Laranja",
-      "operadora": "Linha Uni",
-      "status": "Operação Encerrada",
-      "operacao_normal": false,
-      "verificado_em": "2026-11-27T09:53:01.050025-03:00",
+      "verificado_em": "2026-11-27T10:53:00.781013-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -81,18 +93,7 @@
       "operadora": "TIC Trens",
       "status": "Linha opera normalmente em toda sua extensão.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.060231-03:00",
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
-    },
-    {
-      "linha_cor": "DIAMANTE",
-      "linha_numero": 8,
-      "linha_nome": "Linha 8-Diamante",
-      "operadora": "ViaMobilidade",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.584711-03:00",
+      "verificado_em": "2026-11-27T10:53:00.730897-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -103,7 +104,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.627751-03:00",
+      "verificado_em": "2026-11-27T10:53:00.803415-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -114,7 +115,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T10:00:26",
+      "verificado_em": "2026-11-27T11:00:22",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -125,7 +126,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.124485-03:00",
+      "verificado_em": "2026-11-27T10:53:00.740013-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -136,7 +137,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.214726-03:00",
+      "verificado_em": "2026-11-27T10:53:00.747679-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -147,7 +148,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T09:53:01.311386-03:00",
+      "verificado_em": "2026-11-27T10:53:00.755988-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -162,6 +163,15 @@
       "fonte": "sem retorno da API"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Osasco",
+      "linha_nome": "Linha 8-Diamante",
+      "linha_cor": "DIAMANTE",
+      "operadora": "ViaMobilidade",
+      "status": "Devido à atividade programada os trens da linha 8-Diamante estão circulando com maiores intervalos entre as estações Palmeiras-Barra Funda e Júlio Prestes.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

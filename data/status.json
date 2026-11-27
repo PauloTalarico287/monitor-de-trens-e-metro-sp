@@ -1,23 +1,12 @@
 {
-  "coletado_em": "2026-11-27T15:00:16.785763-03:00",
+  "coletado_em": "2026-11-27T16:00:14.126937-03:00",
   "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
-    "total_com_problema": 2,
-    "total_normal": 12,
+    "total_com_problema": 1,
+    "total_normal": 13,
     "territorios_com_alerta": 1
   },
   "problemas": [
-    {
-      "linha_cor": "LARANJA",
-      "linha_numero": 6,
-      "linha_nome": "Linha 6-Laranja",
-      "operadora": "Linha Uni",
-      "status": "Em funcionamento das 10h às 15h.",
-      "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.372841-03:00",
-      "emoji": "🟡",
-      "fonte": "API ARTESP"
-    },
     {
       "linha_cor": "DIAMANTE",
       "linha_numero": 8,
@@ -25,7 +14,7 @@
       "operadora": "ViaMobilidade",
       "status": "Devido à atividade programada os trens da linha 8-Diamante estão circulando com maiores intervalos entre as estações Palmeiras-Barra Funda e Júlio Prestes.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.429694-03:00",
+      "verificado_em": "2026-11-27T15:57:16.716086-03:00",
       "emoji": "🟡",
       "fonte": "API ARTESP"
     }
@@ -38,7 +27,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T15:00:27",
+      "verificado_em": "2026-11-27T16:00:04",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -49,7 +38,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T15:00:27",
+      "verificado_em": "2026-11-27T16:00:04",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -60,7 +49,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T15:00:27",
+      "verificado_em": "2026-11-27T16:00:04",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -71,7 +60,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.412244-03:00",
+      "verificado_em": "2026-11-27T15:57:16.695727-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -82,7 +71,18 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.421357-03:00",
+      "verificado_em": "2026-11-27T15:57:16.707195-03:00",
+      "emoji": "🟢",
+      "fonte": "API ARTESP"
+    },
+    {
+      "linha_cor": "LARANJA",
+      "linha_numero": 6,
+      "linha_nome": "Linha 6-Laranja",
+      "operadora": "Linha Uni",
+      "status": "Operação Encerrada",
+      "operacao_normal": false,
+      "verificado_em": "2026-11-27T15:57:16.651762-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -104,7 +104,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.437326-03:00",
+      "verificado_em": "2026-11-27T15:57:16.726485-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -115,7 +115,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T15:00:26",
+      "verificado_em": "2026-11-27T16:00:01",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -126,7 +126,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.381278-03:00",
+      "verificado_em": "2026-11-27T15:57:16.665985-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -137,7 +137,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.391237-03:00",
+      "verificado_em": "2026-11-27T15:57:16.676089-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -148,7 +148,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T14:57:14.400302-03:00",
+      "verificado_em": "2026-11-27T15:57:16.684126-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -159,7 +159,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T15:00:48",
+      "verificado_em": "2026-11-27T16:00:05",
       "emoji": "🟢",
       "fonte": "Painel TIC Trens"
     }

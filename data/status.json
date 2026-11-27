@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-27T17:00:26.064815-03:00",
+  "coletado_em": "2026-11-27T18:00:20.628586-03:00",
   "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
     "total_com_problema": 0,
@@ -13,30 +13,33 @@
       "linha_numero": 1,
       "linha_nome": "Linha 1-Azul",
       "operadora": "Metro SP",
-      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
+      "status": "Operação Normal",
       "operacao_normal": null,
-      "emoji": "⚪",
-      "fonte": "sem retorno da API"
+      "verificado_em": "2026-11-27T18:00:24",
+      "emoji": "🟢",
+      "fonte": "App CPTM"
     },
     {
       "linha_cor": "VERDE",
       "linha_numero": 2,
       "linha_nome": "Linha 2-Verde",
       "operadora": "Metro SP",
-      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
+      "status": "Operação Normal",
       "operacao_normal": null,
-      "emoji": "⚪",
-      "fonte": "sem retorno da API"
+      "verificado_em": "2026-11-27T18:00:24",
+      "emoji": "🟢",
+      "fonte": "App CPTM"
     },
     {
       "linha_cor": "VERMELHA",
       "linha_numero": 3,
       "linha_nome": "Linha 3-Vermelha",
       "operadora": "Metro SP",
-      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
+      "status": "Operação Normal",
       "operacao_normal": null,
-      "emoji": "⚪",
-      "fonte": "sem retorno da API"
+      "verificado_em": "2026-11-27T18:00:24",
+      "emoji": "🟢",
+      "fonte": "App CPTM"
     },
     {
       "linha_cor": "AMARELA",
@@ -45,7 +48,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T16:58:03.214967-03:00",
+      "verificado_em": "2026-11-27T17:58:03.024637-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -56,7 +59,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T16:58:03.223950-03:00",
+      "verificado_em": "2026-11-27T17:58:03.083297-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -67,7 +70,7 @@
       "operadora": "Linha Uni",
       "status": "Operação Encerrada",
       "operacao_normal": false,
-      "verificado_em": "2026-11-27T16:58:03.180413-03:00",
+      "verificado_em": "2026-11-27T17:58:02.928585-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -89,7 +92,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T16:58:03.232744-03:00",
+      "verificado_em": "2026-11-27T17:58:03.102216-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -100,7 +103,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T16:58:03.240829-03:00",
+      "verificado_em": "2026-11-27T17:58:03.132833-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -109,10 +112,11 @@
       "linha_numero": 10,
       "linha_nome": "Linha 10-Turquesa",
       "operadora": "CPTM",
-      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
+      "status": "Operação Normal",
       "operacao_normal": null,
-      "emoji": "⚪",
-      "fonte": "sem retorno da API"
+      "verificado_em": "2026-11-27T18:00:22",
+      "emoji": "🟢",
+      "fonte": "App CPTM"
     },
     {
       "linha_cor": "CORAL",
@@ -121,7 +125,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T16:58:03.189167-03:00",
+      "verificado_em": "2026-11-27T17:58:02.945716-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -132,7 +136,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T16:58:03.197741-03:00",
+      "verificado_em": "2026-11-27T17:58:02.979827-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -143,7 +147,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T16:58:03.206571-03:00",
+      "verificado_em": "2026-11-27T17:58:03.004086-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -152,10 +156,11 @@
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
       "operadora": "Metro SP",
-      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
+      "status": "Operação Normal",
       "operacao_normal": null,
-      "emoji": "⚪",
-      "fonte": "sem retorno da API"
+      "verificado_em": "2026-11-27T18:00:24",
+      "emoji": "🟢",
+      "fonte": "Painel TIC Trens"
     }
   ],
   "alertas_territorios": [],

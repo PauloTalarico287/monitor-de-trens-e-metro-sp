@@ -1,12 +1,24 @@
 {
-  "coletado_em": "2026-11-27T23:00:13.266123-03:00",
+  "coletado_em": "2026-11-28T05:00:24.051901-03:00",
   "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
-    "total_com_problema": 0,
-    "total_normal": 14,
-    "territorios_com_alerta": 0
+    "total_com_problema": 1,
+    "total_normal": 13,
+    "territorios_com_alerta": 1
   },
-  "problemas": [],
+  "problemas": [
+    {
+      "linha_cor": "CORAL",
+      "linha_numero": 11,
+      "linha_nome": "Linha 11-Coral",
+      "operadora": "CPTM",
+      "status": "Devido a falha no equipamento de via, um trem está impedindo a circulação entre as estações Luz e Palmeiras-Barra Funda.",
+      "operacao_normal": true,
+      "verificado_em": "2026-11-28T04:58:01.025331-03:00",
+      "emoji": "🟡",
+      "fonte": "API ARTESP"
+    }
+  ],
   "normais": [
     {
       "linha_cor": "AZUL",
@@ -15,7 +27,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T23:00:02",
+      "verificado_em": "2026-11-28T05:00:07",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -26,7 +38,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T23:00:02",
+      "verificado_em": "2026-11-28T05:00:07",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -37,7 +49,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T23:00:02",
+      "verificado_em": "2026-11-28T05:00:07",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -48,7 +60,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.580311-03:00",
+      "verificado_em": "2026-11-28T04:58:01.094222-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -59,7 +71,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.591600-03:00",
+      "verificado_em": "2026-11-28T04:58:01.110250-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -70,7 +82,7 @@
       "operadora": "Linha Uni",
       "status": "Operação Encerrada",
       "operacao_normal": false,
-      "verificado_em": "2026-11-27T22:58:01.495506-03:00",
+      "verificado_em": "2026-11-28T04:58:00.990259-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -81,7 +93,7 @@
       "operadora": "TIC Trens",
       "status": "Linha opera normalmente em toda sua extensão.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.511106-03:00",
+      "verificado_em": "2026-11-28T04:58:01.009259-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -92,7 +104,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.604378-03:00",
+      "verificado_em": "2026-11-28T04:58:01.123060-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -103,7 +115,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.620213-03:00",
+      "verificado_em": "2026-11-28T04:58:01.134805-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -114,20 +126,9 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T23:00:06",
+      "verificado_em": "2026-11-28T05:00:25",
       "emoji": "🟢",
       "fonte": "App CPTM"
-    },
-    {
-      "linha_cor": "CORAL",
-      "linha_numero": 11,
-      "linha_nome": "Linha 11-Coral",
-      "operadora": "CPTM",
-      "status": "Operação Normal",
-      "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.533926-03:00",
-      "emoji": "🟢",
-      "fonte": "API ARTESP"
     },
     {
       "linha_cor": "SAFIRA",
@@ -136,7 +137,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.548383-03:00",
+      "verificado_em": "2026-11-28T04:58:01.048930-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -147,7 +148,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-27T22:58:01.561738-03:00",
+      "verificado_em": "2026-11-28T04:58:01.060761-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -158,11 +159,20 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-27T23:00:02",
+      "verificado_em": "2026-11-28T04:59:58",
       "emoji": "🟢",
       "fonte": "Painel TIC Trens"
     }
   ],
-  "alertas_territorios": [],
+  "alertas_territorios": [
+    {
+      "territorio": "Suzano",
+      "linha_nome": "Linha 11-Coral",
+      "linha_cor": "CORAL",
+      "operadora": "CPTM",
+      "status": "Devido a falha no equipamento de via, um trem está impedindo a circulação entre as estações Luz e Palmeiras-Barra Funda.",
+      "emoji": "🟡"
+    }
+  ],
   "ausentes_api": []
 }

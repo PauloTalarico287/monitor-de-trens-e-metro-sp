@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-28T05:00:24.051901-03:00",
+  "coletado_em": "2026-11-28T06:00:35.583077-03:00",
   "fonte": "API ARTESP + app da CPTM + painel TIC Trens",
   "resumo": {
     "total_com_problema": 1,
@@ -12,9 +12,9 @@
       "linha_numero": 11,
       "linha_nome": "Linha 11-Coral",
       "operadora": "CPTM",
-      "status": "Devido a falha no equipamento de via, um trem está impedindo a circulação entre as estações Luz e Palmeiras-Barra Funda.",
+      "status": "Circulação normal.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.025331-03:00",
+      "verificado_em": "2026-11-28T05:58:02.045184-03:00",
       "emoji": "🟡",
       "fonte": "API ARTESP"
     }
@@ -27,7 +27,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-28T05:00:07",
+      "verificado_em": "2026-11-28T06:00:21",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -38,7 +38,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-28T05:00:07",
+      "verificado_em": "2026-11-28T06:00:21",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -49,7 +49,7 @@
       "operadora": "Metro SP",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-28T05:00:07",
+      "verificado_em": "2026-11-28T06:00:21",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -60,7 +60,7 @@
       "operadora": "Motiva",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.094222-03:00",
+      "verificado_em": "2026-11-28T05:58:02.145938-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -71,7 +71,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.110250-03:00",
+      "verificado_em": "2026-11-28T05:58:02.174236-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -82,7 +82,7 @@
       "operadora": "Linha Uni",
       "status": "Operação Encerrada",
       "operacao_normal": false,
-      "verificado_em": "2026-11-28T04:58:00.990259-03:00",
+      "verificado_em": "2026-11-28T05:58:01.978295-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -93,7 +93,7 @@
       "operadora": "TIC Trens",
       "status": "Linha opera normalmente em toda sua extensão.",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.009259-03:00",
+      "verificado_em": "2026-11-28T05:58:02.013851-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -104,7 +104,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.123060-03:00",
+      "verificado_em": "2026-11-28T05:58:02.213296-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -115,7 +115,7 @@
       "operadora": "ViaMobilidade",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.134805-03:00",
+      "verificado_em": "2026-11-28T05:58:02.256839-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -126,7 +126,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": null,
-      "verificado_em": "2026-11-28T05:00:25",
+      "verificado_em": "2026-11-28T06:00:26",
       "emoji": "🟢",
       "fonte": "App CPTM"
     },
@@ -137,7 +137,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.048930-03:00",
+      "verificado_em": "2026-11-28T05:58:02.097894-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -148,7 +148,7 @@
       "operadora": "CPTM",
       "status": "Operação Normal",
       "operacao_normal": true,
-      "verificado_em": "2026-11-28T04:58:01.060761-03:00",
+      "verificado_em": "2026-11-28T05:58:02.123562-03:00",
       "emoji": "🟢",
       "fonte": "API ARTESP"
     },
@@ -157,11 +157,10 @@
       "linha_numero": 15,
       "linha_nome": "Linha 15-Prata",
       "operadora": "Metro SP",
-      "status": "Operação Normal",
+      "status": "Status indisponível nas fontes automáticas. Consulte o site do Metrô SP (metro.sp.gov.br).",
       "operacao_normal": null,
-      "verificado_em": "2026-11-28T04:59:58",
-      "emoji": "🟢",
-      "fonte": "Painel TIC Trens"
+      "emoji": "⚪",
+      "fonte": "sem retorno da API"
     }
   ],
   "alertas_territorios": [
@@ -170,7 +169,7 @@
       "linha_nome": "Linha 11-Coral",
       "linha_cor": "CORAL",
       "operadora": "CPTM",
-      "status": "Devido a falha no equipamento de via, um trem está impedindo a circulação entre as estações Luz e Palmeiras-Barra Funda.",
+      "status": "Circulação normal.",
       "emoji": "🟡"
     }
   ],
